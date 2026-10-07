@@ -1,0 +1,3 @@
+sampleName,fasta
+LM088-RCB001,s3://spencerlab-data-ingestion/assemblies/LM088-RCB001.fasta
+#LM089-RCB002,s3://spencerlab-data-ingestion/assemblies/LM089-RCB002.fasta
