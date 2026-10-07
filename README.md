@@ -1,7 +1,8 @@
 # nf-gene-verify
 
-Annotation-free gene presence/absence verification.
+An Annotation-free pipeline for gene presence/absence verification.
 
+## Workflow
 ```
 genes.txt ──► BUILD_PROTEIN_DB ──► combined.fasta + manifest.csv   (ONCE per run)
                                         │
