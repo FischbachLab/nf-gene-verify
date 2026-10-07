@@ -1,8 +1,6 @@
 # nf-gene-verify
 
-Annotation-free gene presence/absence verification. Nextflow port of
-`gene_verification_docker/scripts/run_pipeline.sh`, using the same
-`fischbachlab/gene-verify` image and the same Python steps.
+Annotation-free gene presence/absence verification.
 
 ```
 genes.txt ──► BUILD_PROTEIN_DB ──► combined.fasta + manifest.csv   (ONCE per run)
@@ -11,10 +9,10 @@ assembly ───────────────────────�
                                                                            │
                               --verify_nr true                             ▼
                                    EXTRACT_LOCI ──► NR_BLASTX ──► NR_COLLECT ──► FINALIZE_CALLS
-                                                                   gene_presence_table_v2.csv
+                                                                   gene_presence_table_v2.csv & gene_presence_matrix.tsv
 ```
 
-## What the port changes
+## Implementation notes
 
 **The protein DB is built once, not once per genome.** The shell pipeline
 rebuilds it on every invocation, so a 20-genome run meant 20 NCBI builds — and
@@ -29,13 +27,9 @@ no longer stops the rest.
 `FINALIZE_CALLS` use `.join()`, so samples finishing out of order can't be
 paired with another sample's results.
 
-Everything else — the Python scripts, the blastx flags, the thresholds — is
-carried over unchanged, including the deliberate absence of
-`-max_target_seqs`, which silently truncates results in subject-mode searches.
-
 ## Usage
 
-Single genome, equivalent to your current `docker run`:
+Single genome:
 
 ```bash
 nextflow run main.nf -profile local \
@@ -54,8 +48,9 @@ aws batch submit-job \
   --job-definition nextflow-production \
   --container-overrides '{"command":[
       "s3://nextflow-pipelines/nf-gene-verify",
-      "--seedfile","s3://.../seedfile.csv",
+      "--seedfile","s3://genomics-workflow-core/Results/gene-verify/seedfiles/LM088.seedfile.csv",
       "--outdir","s3://enomics-workflow-core/Results/gene-verify/20261005",
+      "--genes","s3://genomics-workflow-core/Results/gene-verify/gene_files/genes.txt",
       "--verify_nr","true"]}'
 ```
 
@@ -65,7 +60,6 @@ aws batch submit-job \
 sampleName,fasta
 LM088,s3://genomics-workflow-core/Results/gene-verify/genomes/LM088-RCB001.fasta
 #LM087,s3://genomics-workflow-core/Results/gene-verify/genomes/LM087.fasta
-#LM090,s3://genomics-workflow-core/Results/gene-verify/genomes/LM090-RCB003.fasta
 ```
 
 Rows with a blank `sampleName` or a leading `#` are skipped.
@@ -229,10 +223,9 @@ sdrH_locus_1_862515-864488	ref|WP_458554421.1|	MSCRAMM-like protein SdrH [Staphy
 
 
 ### additional notes
-```
-The aggregation is mixed. bit_score, evalue and align_len come from the single best HSP; identity_pct and hit_cov_pct are aggregated across all HSPs for that subject. So align_len can be smaller than hit_cov_pct implies when a hit is split into several HSPs — they aren't describing the same thing.
 
-query_cov_pct is empty by design, not a bug. The query here is a genomic locus plus 300 bp flanks — far longer than any protein — so query coverage would always be a tiny, meaningless number. Subject coverage answers the real question: how much of the reference protein did we find? That's why finalize_calls.py reads hit_cov_pct or query_cov_pct. The remote-BLAST path does populate query_cov_pct, hence the column existing at all.
+- **The aggregation is mixed. bit_score, evalue and align_len come from the single best HSP; identity_pct and hit_cov_pct are aggregated across all HSPs for that subject. So align_len can be smaller than hit_cov_pct implies when a hit is split into several HSPs — they aren't describing the same thing.
 
-Units differ across the row. This is blastx, so the query is nucleotide and the subject is protein: hit_len and align_len are in amino acids, while query_start/query_end (865–1674 above) are nucleotide offsets into the extracted locus. finalize_calls.py uses those two to map hits back to genome coordinates.
-```
+- **query_cov_pct is empty by design, not a bug. The query here is a genomic locus plus 300 bp flanks — far longer than any protein — so query coverage would always be a tiny, meaningless number. Subject coverage answers the real question: how much of the reference protein did we find? That's why finalize_calls.py reads hit_cov_pct or query_cov_pct. The remote-BLAST path does populate query_cov_pct, hence the column existing at all.
+
+- **Units differ across the row. This is blastx, so the query is nucleotide and the subject is protein: hit_len and align_len are in amino acids, while query_start/query_end (865–1674 above) are nucleotide offsets into the extracted locus. finalize_calls.py uses those two to map hits back to genome coordinates.
