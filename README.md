@@ -55,7 +55,7 @@ aws batch submit-job \
       "--verify_nr","true"]}'
 ```
 
-### Seedfile
+### Seedfile format
 
 ```csv
 sampleName,fasta
@@ -188,6 +188,31 @@ read_tsv("gene_presence_matrix.tsv") |> pivot_wider(names_from = gene, values_fr
   channel that never emits.
 - `NCBI_API_KEY` in the environment raises the build step's rate limit from 3
   to 10 requests/second.
+
+## Validation from the round 1 
+
+ gene_calls is decided by 3 parameters `--identity-min`, `--coverage-min`, `--gap` in `call_genes.py`.
+
+- **present** — ≥90% protein identity over ≥80% of the reference length
+- **divergent** — full coverage but <90% identity (likely genuine ortholog; check the locus)
+- **partial** — <80% coverage (fragment, truncation, or cross-homology)
+- **absent** — no hit at e-value ≤ 1e-5
+
+## Validation from the round 2
+
+There are no identity or coverage thresholds in round 2 — that's the key thing. Those columns are reported but never gate the call.
+
+final_call is decided by three tests in finalize_calls.py:
+
+|#|	test|	threshold
+|---|---|---|
+|1	|nr hit's query span overlaps the round-1 called region	|any overlap ≥ 1 bp — g2 >= gs and g1 <= ge
+|2	|hit title matches the gene's accept pattern and not reject	|pattern match, not numeric
+|3	|that hit's bitscore ≥ fraction of the top overlapping hit's	|--min-bitscore-frac, default 0.80 (relative, not absolute)
+
+- **present** - Pass all three 
+- **flagged**  - Otherwise
+
 
 ## Notes in nr_top_hits.tsv
 |column	|meaning|	computed from
