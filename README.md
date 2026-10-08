@@ -189,7 +189,7 @@ read_tsv("gene_presence_matrix.tsv") |> pivot_wider(names_from = gene, values_fr
 - `NCBI_API_KEY` in the environment raises the build step's rate limit from 3
   to 10 requests/second.
 
-## Validation from the round 1 
+## Validation from round 1 
 
  gene_calls is decided by 3 parameters `--identity-min`, `--coverage-min`, `--gap` in `call_genes.py`.
 
@@ -198,7 +198,7 @@ read_tsv("gene_presence_matrix.tsv") |> pivot_wider(names_from = gene, values_fr
 - **partial** — <80% coverage (fragment, truncation, or cross-homology)
 - **absent** — no hit at e-value ≤ 1e-5
 
-## Validation from the round 2
+## Validation from round 2
 
 There are no identity or coverage thresholds in round 2 — that's the key thing. Those columns are reported but never gate the call.
 
