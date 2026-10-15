@@ -267,6 +267,7 @@ read_tsv("gene_presence_matrix.tsv") |> pivot_wider(names_from = gene, values_fr
 - `NCBI_API_KEY` in the environment raises the build step's rate limit from 3
   to 10 requests/second.
 
+<!-->
 ## Round 1 uses an allele PANEL
 
 A single reference per gene measures similarity to one strain's allele, so a
@@ -362,7 +363,7 @@ which is highly conserved.
 It does **not** establish which SCCmec type is present, nor that the cassette
 is intact. For typing, look at which *mec* and *ccr* proteins hit in
 `blastx_raw.tsv`, or use a purpose-built tool such as SCCmecFinder.
-
+-->
 ## Validation from round 1 
 
  gene_calls is decided by 3 parameters `--identity-min`, `--coverage-min`, `--gap` in `call_genes.py`.
