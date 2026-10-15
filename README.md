@@ -267,7 +267,7 @@ read_tsv("gene_presence_matrix.tsv") |> pivot_wider(names_from = gene, values_fr
 - `NCBI_API_KEY` in the environment raises the build step's rate limit from 3
   to 10 requests/second.
 
-<!-->
+<!--
 ## Round 1 uses an allele PANEL
 
 A single reference per gene measures similarity to one strain's allele, so a
