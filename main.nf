@@ -117,6 +117,7 @@ process BUILD_PROTEIN_DB {
 
     input:
       path genes
+      path data_dir        // predefined DBs (data/sccmec_proteins.faa); may be empty
 
     output:
       path "protein_db/combined.fasta", emit: fasta
@@ -131,9 +132,44 @@ process BUILD_PROTEIN_DB {
     mapfile -t GENES < <(grep -v '^[[:space:]]*\$' ${genes} | grep -v '^[[:space:]]*#' | tr -d '\\r')
     echo "genes: \${GENES[*]}"
 
-    python3 /opt/pipeline/build_protein_db.py \\
+    # Targets that gene-name search cannot retrieve: SCCmec is a cassette,
+    # IS256 an insertion sequence. Both come from predefined FASTAs built once
+    # by fetch_predefined_db.py.
+    PREDEF_ARGS=""
+    # args: label, filename, build_protein_db flag
+    find_predef() {
+        for d in . data; do
+            if [ -s "\$d/\$2" ]; then
+                PREDEF_ARGS="\$PREDEF_ARGS \$3 \$d/\$2"
+                echo "\$1: using predefined \$d/\$2"
+                return 0
+            fi
+        done
+        if printf '%s\\n' "\${GENES[@]}" | grep -qix "\$1"; then
+            echo "ERROR: '\$1' is in the gene list but \$2 was not staged." >&2
+            echo "       Build it once:" >&2
+            echo "         python3 bin/fetch_predefined_db.py --db \$(echo \$1 | tr A-Z a-z) --out data/\$2" >&2
+            echo "       then point --predefined_dir at that directory." >&2
+            return 1
+        fi
+        return 0
+    }
+    find_predef SCCmec sccmec_proteins.faa --sccmec-fasta || exit 1
+    find_predef IS256  is256_proteins.faa  --is256-fasta  || exit 1
+
+    # bin/build_protein_db.py, NOT /opt/pipeline/: carries the allele-panel
+    # query and diversity selection. Nextflow prepends bin/ to PATH, so this
+    # takes effect without rebuilding fischbachlab/gene-verify.
+    build_protein_db.py \\
         --genes "\${GENES[@]}" \\
         --retmax ${params.retmax} \\
+        --max-alleles ${params.max_alleles} \\
+        --min-len-frac ${params.min_len_frac} \\
+        --prefer-organism '${params.prefer_organism}' \\
+        ${params.refseq_only ? '--refseq-only' : ''} \\
+        ${params.predefined_all ? '--predefined-all' : ''} \\
+        ${params.predefined_max ? "--predefined-max ${params.predefined_max}" : ''} \\
+        \${PREDEF_ARGS} \\
         --out protein_db
 
     echo "reference sequences: \$(grep -c '^>' protein_db/combined.fasta)"
@@ -174,6 +210,7 @@ process BLASTX {
 
     blastx -query ${genome} \\
            -subject ${protein_fasta} \\
+           -seg ${params.blastx_seg} \\
            -evalue ${params.evalue} \\
            -num_threads ${task.cpus} \\
            -outfmt "6 qseqid sseqid pident length qlen slen qstart qend sstart send evalue bitscore" \\
@@ -323,6 +360,7 @@ process NR_BLASTX {
 
     blastx -query batch_query.fasta \\
            -db ${params.nr_db} \\
+           -seg ${params.nr_seg} \\
            -evalue ${params.nr_evalue} \\
            -outfmt "\${OUTFMT}" \\
            -max_target_seqs ${params.nr_max_target_seqs} \\
@@ -534,7 +572,12 @@ workflow {
     ch_genes = Channel.value(genes_f)
 
     // ── Step 1: one protein DB for the whole run ────────────────────────────
-    BUILD_PROTEIN_DB(ch_genes)
+    // an empty list stages nothing but still satisfies the input
+    ch_predefined = params.predefined_dir
+        ? Channel.value(file(params.predefined_dir, checkIfExists: true))
+        : Channel.value([])
+
+    BUILD_PROTEIN_DB(ch_genes, ch_predefined)
 
     // first(): turn the single-item output into a value channel so it can be
     // consumed once per sample rather than being used up by the first one

@@ -78,7 +78,8 @@ GENE_PATTERNS = {
     },
     "blaz": {
         "accept": r"\bblaz\b|beta-?lactamase|penicillinase",
-        "reject": r"\bblai\b|\bblar1?\b|repressor|metallo-?beta-?lactamase"
+        "reject": r"\bblai\b|\bblar1?\b|repressor|regulator|regulatory"
+                  r"|sensor-?transducer|metallo-?beta-?lactamase"
                   r"|class [cd] beta-?lactamase",
     },
     "fosb": {
@@ -125,6 +126,16 @@ def load_locus_windows(loci_dir):
                          "win_start": int(m.group(2)),
                          "win_end": int(m.group(3))}
     return windows
+
+
+# Titles that name the right gene but flag the RECORD as incomplete. These
+# still count as accepting -- ", partial" is extremely common in nr and often
+# the best available evidence (blaI's top hit is 'BlaI/MecI/CopY family
+# transcriptional regulator, partial') -- but an intact record is preferred
+# when one exists. Confirming sdrF on 'sdrF protein, truncation' while
+# full-length SdrF records sit in the same hit list is weaker than it looks.
+TRUNCATED_RE = re.compile(r",\s*partial\b|\btruncation\b|\btruncated\b"
+                          r"|\bfragment\b", re.I)
 
 
 def load_patterns(path):
@@ -238,6 +249,7 @@ def main():
         if overlapping:
             top_bits = float(top["bit_score"])
             floor = top_bits * args.min_bitscore_frac
+            fallback = None          # accepting, but a truncated record
             for h in overlapping:
                 verdict = classify_title(gene, h["title"], pats)
                 if verdict == "reject":
@@ -253,8 +265,18 @@ def main():
                         f"{h['_rank']} at {h['bit_score']} bits, below "
                         f"{args.min_bitscore_frac:.0%} of top ({top['bit_score']})")
                     break
+                if TRUNCATED_RE.search(h["title"]):
+                    # keep looking for an intact record of the same gene
+                    if fallback is None:
+                        fallback = h
+                    continue
                 confirming = h
                 break
+
+            if confirming is None and fallback is not None:
+                confirming = fallback
+                notes.append("confirming record is annotated as "
+                             "truncated/partial; no intact record overlapped")
 
         if gene.lower() not in pats:
             notes.append(f"no curated title patterns for '{gene}' -- matched on "
@@ -289,11 +311,27 @@ def main():
         if notes:
             nr_status += " | " + "; ".join(notes)
 
-        # Report the hit the decision rests on, not merely the highest-scoring
+        # Report the hit the decision rests on, not merely the highest-scoring.
+        # The columns below are therefore named nr_confirming_*, NOT nr_top_hit_*:
+        # when GENE_PATTERNS rejects ranks 1-2 as paralogs or ambiguous titles,
+        # the reported hit is rank 3 (sdrH on LM088-RCB001 did exactly that).
+        # nr_hit_rank == 1 is the only case where the confirming hit is also the
+        # top-scoring one.
         top = confirming or top
 
-        cov_col = (top.get("hit_cov_pct") or top.get("query_cov_pct") or ""
-                   if top else "")
+        # NOTE: 'hit_cov_pct' is coverage of the SUBJECT protein, 'query_cov_pct'
+        # coverage of the QUERY locus -- which carries --flank bp on each side,
+        # capping query coverage well below 100% even for a full-length match
+        # (1374/1974 = 70% for sdrH). The two are not comparable, so the basis
+        # actually used is recorded in nr_coverage_basis rather than left
+        # ambiguous.
+        if top and top.get("hit_cov_pct"):
+            cov_col, cov_basis = top["hit_cov_pct"], "subject"
+        elif top and top.get("query_cov_pct"):
+            cov_col, cov_basis = top["query_cov_pct"], "query_locus+flank"
+        else:
+            cov_col, cov_basis = "", ""
+
         rows.append({
             "gene": gene,
             "round1_call": c["call"],
@@ -301,11 +339,12 @@ def main():
             "round1_coverage_pct": c["coverage_pct"],
             "contig": c["contig"],
             "coordinates": coords,
-            "nr_top_hit_accession": top["accession"] if top else "",
-            "nr_top_hit_title": top["title"][:80] if top else "",
-            "nr_organism": top["organism"] if top else "",
+            "nr_confirming_accession": top["accession"] if top else "",
+            "nr_confirming_title": top["title"][:80] if top else "",
+            "nr_confirming_organism": top["organism"] if top else "",
             "nr_identity_pct": top["identity_pct"] if top else "",
             "nr_hit_coverage_pct": cov_col,
+            "nr_coverage_basis": cov_basis,
             "nr_hit_rank": top.get("_rank", "") if top else "",
             "nr_verification": nr_status,
             "final_call": final,

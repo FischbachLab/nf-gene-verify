@@ -1,0 +1,148 @@
+{
+ "label": "IS256",
+ "n_proteins": 17,
+ "n_core": 17,
+ "query": "(\"IS256 family transposase\"[Protein Name] OR \"IS256 family transposase\"[Title] OR \"transposase IS256\"[Title] OR \"IS256\"[Title]) AND \"Staphylococcus epidermidis\"[Organism]",
+ "length_filter": [
+  250,
+  500
+ ],
+ "proteins": [
+  {
+   "protein_id": "YHA24519.1",
+   "gene": "IS256",
+   "product": "IS256-like element IS256 family transposase",
+   "label": "IS256-like element IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "WP_496242918.1",
+   "gene": "IS256",
+   "product": "IS256-like element IS256 family transposase",
+   "label": "IS256-like element IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "YER30628.1",
+   "gene": "IS256",
+   "product": "IS256 family transposase",
+   "label": "IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "YER30624.1",
+   "gene": "IS256",
+   "product": "IS256 family transposase",
+   "label": "IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "YER30450.1",
+   "gene": "IS256",
+   "product": "IS256 family transposase",
+   "label": "IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "YER29590.1",
+   "gene": "IS256",
+   "product": "IS256 family transposase",
+   "label": "IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "WP_480976441.1",
+   "gene": "IS256",
+   "product": "IS256-like element IS256 family transposase",
+   "label": "IS256-like element IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "WP_000195427.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "label": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "source": "Bacilli",
+   "core": true
+  },
+  {
+   "protein_id": "WP_458547179.1",
+   "gene": "IS256",
+   "product": "IS256-like element IS256 family transposase",
+   "label": "IS256-like element IS256 family transposase",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "WP_121844461.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "label": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "source": "Staphylococcus",
+   "core": true
+  },
+  {
+   "protein_id": "WP_410333138.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "label": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "source": "Bacilli",
+   "core": true
+  },
+  {
+   "protein_id": "WP_217971187.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256 family transposase",
+   "label": "MULTISPECIES: IS256 family transposase",
+   "source": "Bacilli",
+   "core": true
+  },
+  {
+   "protein_id": "WP_159201510.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "label": "MULTISPECIES: IS256-like element IS256 family transposase, partial",
+   "source": "Bacilli",
+   "core": true
+  },
+  {
+   "protein_id": "WP_285138579.1",
+   "gene": "IS256",
+   "product": "IS256 family transposase, partial",
+   "label": "IS256 family transposase, partial",
+   "source": "Staphylococcus epidermidis",
+   "core": true
+  },
+  {
+   "protein_id": "WP_023016495.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256 family transposase",
+   "label": "MULTISPECIES: IS256 family transposase",
+   "source": "Bacillati",
+   "core": true
+  },
+  {
+   "protein_id": "WP_006584480.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256 family transposase",
+   "label": "MULTISPECIES: IS256 family transposase",
+   "source": "Bacteria",
+   "core": true
+  },
+  {
+   "protein_id": "WP_005727505.1",
+   "gene": "IS256",
+   "product": "MULTISPECIES: IS256 family transposase",
+   "label": "MULTISPECIES: IS256 family transposase",
+   "source": "Bacteria",
+   "core": true
+  }
+ ]
+}

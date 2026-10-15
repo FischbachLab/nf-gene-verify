@@ -1,0 +1,1933 @@
+{
+ "label": "SCCmec",
+ "n_proteins": 238,
+ "n_core": 25,
+ "accessions": [
+  "AB033763",
+  "D86934",
+  "AB037671",
+  "AB063172",
+  "AB121219",
+  "AF411935",
+  "FJ390057"
+ ],
+ "core_patterns": [
+  "\\bmecA\\b",
+  "\\bmecC\\b",
+  "\\bmecR1?\\b",
+  "\\bmecI\\b",
+  "\\bccrA\\d?\\b",
+  "\\bccrB\\d?\\b",
+  "\\bccrC\\d?\\b",
+  "penicillin-binding protein 2a",
+  "penicillin-binding protein 2'",
+  "cassette chromosome recombinase",
+  "methicillin resistance"
+ ],
+ "proteins": [
+  {
+   "protein_id": "BAA86632.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94314.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86633.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94315.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94316.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86634.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86635.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94317.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86636.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86637.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94318.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94319.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94320.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86638.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86639.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94321.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86640.2",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86641.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94322.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94323.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94324.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86644.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86645.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86646.3",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94325.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86647.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94326.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86648.1",
+   "gene": "ccrA1",
+   "product": "cassette chromosome recombinase A1",
+   "label": "ccrA1 cassette chromosome recombinase A1",
+   "source": "AB033763",
+   "core": true
+  },
+  {
+   "protein_id": "BAA94327.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "AB033763_cds30",
+   "gene": "ccrB1",
+   "product": "",
+   "label": "ccrB1",
+   "source": "AB033763",
+   "core": true
+  },
+  {
+   "protein_id": "BAA94328.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94329.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94330.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94331.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86649.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94332.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "AB033763_cds37",
+   "gene": "mecR1",
+   "product": "",
+   "label": "mecR1",
+   "source": "AB033763",
+   "core": true
+  },
+  {
+   "protein_id": "BAA86650.1",
+   "gene": "mecA",
+   "product": "penicillin-binding protein 2'",
+   "label": "mecA penicillin-binding protein 2'",
+   "source": "AB033763",
+   "core": true
+  },
+  {
+   "protein_id": "BAA94333.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "AB033763_cds40",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94334.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86651.1",
+   "gene": "ugpQ",
+   "product": "glycerophosphoryl diester phosphodiesterase homologue",
+   "label": "ugpQ glycerophosphoryl diester phosphodiesterase homologue",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94335.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94336.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94337.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86652.1",
+   "gene": "tnp",
+   "product": "transposase",
+   "label": "tnp transposase",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94338.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94339.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94340.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA86653.1",
+   "gene": "orfX",
+   "product": "open reading frame X",
+   "label": "orfX open reading frame X",
+   "source": "AB033763",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82170.2",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82174.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82176.3",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94649.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94650.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94651.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94652.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds60",
+   "gene": "kdpC",
+   "product": "potassium-transporting ATPase(C chain)",
+   "label": "kdpC potassium-transporting ATPase(C chain)",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82181.1",
+   "gene": "kdpB",
+   "product": "potassium-transporting ATPase(B chanin)",
+   "label": "kdpB potassium-transporting ATPase(B chanin)",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAB43902.1",
+   "gene": "",
+   "product": "potassium-transporting ATPase(A chain)",
+   "label": "potassium-transporting ATPase(A chain)",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds63",
+   "gene": "",
+   "product": "sensor protein KdpD",
+   "label": "sensor protein KdpD",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82188.1",
+   "gene": "kdpE",
+   "product": "KDP operon transcriptional regulatory protein KdpE",
+   "label": "kdpE KDP operon transcriptional regulatory protein KdpE",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94653.2",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds66",
+   "gene": "",
+   "product": "transposase",
+   "label": "transposase",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds67",
+   "gene": "",
+   "product": "IS150-like transposase",
+   "label": "IS150-like transposase",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds68",
+   "gene": "",
+   "product": "IS150-like transposase",
+   "label": "IS150-like transposase",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94654.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94655.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94656.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82194.1",
+   "gene": "ccrA",
+   "product": "site-specific recombinase",
+   "label": "ccrA site-specific recombinase",
+   "source": "D86934",
+   "core": true
+  },
+  {
+   "protein_id": "BAA82196.1",
+   "gene": "ccrB",
+   "product": "site-specific recombinase",
+   "label": "ccrB site-specific recombinase",
+   "source": "D86934",
+   "core": true
+  },
+  {
+   "protein_id": "BAA94661.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94662.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA94663.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds77",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82201.1",
+   "gene": "",
+   "product": "transposaseA",
+   "label": "transposaseA",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82202.1",
+   "gene": "tnpB",
+   "product": "transposaseB",
+   "label": "tnpB transposaseB",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82203.1",
+   "gene": "tnpC",
+   "product": "transposaseC",
+   "label": "tnpC transposaseC",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82204.1",
+   "gene": "spc",
+   "product": "O-nucleotydiltransferase(9)",
+   "label": "spc O-nucleotydiltransferase(9)",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82205.1",
+   "gene": "ermA",
+   "product": "rRNA adenine N-6-methyltransferase",
+   "label": "ermA rRNA adenine N-6-methyltransferase",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82207.3",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82209.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82210.2",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82211.1",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds87",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds88",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds89",
+   "gene": "xylR",
+   "product": "xylose repressor",
+   "label": "xylR xylose repressor",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82218.1",
+   "gene": "mecI",
+   "product": "methicillin resistance protein MecI",
+   "label": "mecI methicillin resistance protein MecI",
+   "source": "D86934",
+   "core": true
+  },
+  {
+   "protein_id": "BAA82219.2",
+   "gene": "mecR1",
+   "product": "sensor transducer protein MecR1",
+   "label": "mecR1 sensor transducer protein MecR1",
+   "source": "D86934",
+   "core": true
+  },
+  {
+   "protein_id": "BAA82220.1",
+   "gene": "mecA",
+   "product": "penicillin binding protein 2'",
+   "label": "mecA penicillin binding protein 2'",
+   "source": "D86934",
+   "core": true
+  },
+  {
+   "protein_id": "BAA82222.2",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82226.2",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82229.1",
+   "gene": "ant(4')",
+   "product": "O-nucleotidyltransferase(4')",
+   "label": "ant(4') O-nucleotidyltransferase(4')",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82230.2",
+   "gene": "ble",
+   "product": "bleomycin resistance protein(BRP)",
+   "label": "ble bleomycin resistance protein(BRP)",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAA82234.1",
+   "gene": "pre",
+   "product": "plasmid recombination enzyme",
+   "label": "pre plasmid recombination enzyme",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds101",
+   "gene": "",
+   "product": "replication protein",
+   "label": "replication protein",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "D86934_cds102",
+   "gene": "rep",
+   "product": "replication protein",
+   "label": "rep replication protein",
+   "source": "D86934",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47589.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47590.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47591.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47592.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47593.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47594.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47595.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47596.1",
+   "gene": "ccrA3",
+   "product": "cassette chromosome recombinase A3",
+   "label": "ccrA3 cassette chromosome recombinase A3",
+   "source": "AB037671",
+   "core": true
+  },
+  {
+   "protein_id": "BAB47597.1",
+   "gene": "ccrB3",
+   "product": "cassette chromosome recombinase B3",
+   "label": "ccrB3 cassette chromosome recombinase B3",
+   "source": "AB037671",
+   "core": true
+  },
+  {
+   "protein_id": "BAB47598.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47599.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47600.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47601.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47602.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47603.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47604.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47605.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47606.1",
+   "gene": "",
+   "product": "transposase B of Transposon Tn554",
+   "label": "transposase B of Transposon Tn554",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47607.1",
+   "gene": "",
+   "product": "transposase C of Transposon Tn554",
+   "label": "transposase C of Transposon Tn554",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47608.1",
+   "gene": "",
+   "product": "cadmium resistance protein C",
+   "label": "cadmium resistance protein C",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47609.1",
+   "gene": "",
+   "product": "cadmium resistance protein B",
+   "label": "cadmium resistance protein B",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47610.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47611.1",
+   "gene": "",
+   "product": "DS RF",
+   "label": "DS RF",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47612.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47614.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47616.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47617.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47618.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47619.1",
+   "gene": "xylr",
+   "product": "xylose repressor",
+   "label": "xylr xylose repressor",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47620.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "AB037671_cds130",
+   "gene": "mecI",
+   "product": "",
+   "label": "mecI",
+   "source": "AB037671",
+   "core": true
+  },
+  {
+   "protein_id": "BAB47621.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47622.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "AB037671_cds133",
+   "gene": "mecR1",
+   "product": "",
+   "label": "mecR1",
+   "source": "AB037671",
+   "core": true
+  },
+  {
+   "protein_id": "BAB47623.1",
+   "gene": "mecA",
+   "product": "penicillin-binding protein 2'",
+   "label": "mecA penicillin-binding protein 2'",
+   "source": "AB037671",
+   "core": true
+  },
+  {
+   "protein_id": "BAB47624.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47632.1",
+   "gene": "repC",
+   "product": "repC protein",
+   "label": "repC repC protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47633.1",
+   "gene": "pre",
+   "product": "repC protein",
+   "label": "pre repC protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47634.1",
+   "gene": "",
+   "product": "polypeptide B",
+   "label": "polypeptide B",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47635.1",
+   "gene": "",
+   "product": "putative transposase of IS431",
+   "label": "putative transposase of IS431",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47636.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47637.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47638.1",
+   "gene": "",
+   "product": "putative transposase of IS431",
+   "label": "putative transposase of IS431",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47639.1",
+   "gene": "",
+   "product": "orf1",
+   "label": "orf1",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47640.1",
+   "gene": "",
+   "product": "unknown function protein",
+   "label": "unknown function protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47641.1",
+   "gene": "merB",
+   "product": "organomercurial lyase",
+   "label": "merB organomercurial lyase",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47642.1",
+   "gene": "merA",
+   "product": "mercuric reductase",
+   "label": "merA mercuric reductase",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47643.1",
+   "gene": "merT",
+   "product": "transport protein",
+   "label": "merT transport protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47644.1",
+   "gene": "",
+   "product": "orf4",
+   "label": "orf4",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47645.1",
+   "gene": "",
+   "product": "orf3",
+   "label": "orf3",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47646.1",
+   "gene": "",
+   "product": "orf2",
+   "label": "orf2",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47647.1",
+   "gene": "merR",
+   "product": "regulatory protein",
+   "label": "merR regulatory protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "AB037671_cds160",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47649.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47650.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47651.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47652.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47653.1",
+   "gene": "",
+   "product": "hyphothetical protein",
+   "label": "hyphothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47654.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47655.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47656.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47657.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47658.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47659.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47660.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47661.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47662.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47663.1",
+   "gene": "",
+   "product": "rRNA adenine N-6-methyltransferase",
+   "label": "rRNA adenine N-6-methyltransferase",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47664.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "AB037671_cds177",
+   "gene": "spc",
+   "product": "",
+   "label": "spc",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47668.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47669.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47670.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47671.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47672.1",
+   "gene": "",
+   "product": "site-specific recombinase",
+   "label": "site-specific recombinase",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47673.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47674.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47675.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47676.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47677.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47678.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47679.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB47680.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB037671",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72101.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72102.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72103.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72104.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72105.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72106.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72107.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72108.1",
+   "gene": "ccrA",
+   "product": "cassette chromosome recombinase A",
+   "label": "ccrA cassette chromosome recombinase A",
+   "source": "AB063172",
+   "core": true
+  },
+  {
+   "protein_id": "BAB72109.1",
+   "gene": "ccrB",
+   "product": "cassette chromosome recombinase B",
+   "label": "ccrB cassette chromosome recombinase B",
+   "source": "AB063172",
+   "core": true
+  },
+  {
+   "protein_id": "BAB72110.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72111.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72112.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "AB063172_cds193",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAB72115.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "AB063172_cds201",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "AB063172_cds202",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "AB063172",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24822.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24823.1",
+   "gene": "tnp",
+   "product": "transposase for IS431",
+   "label": "tnp transposase for IS431",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24826.1",
+   "gene": "mecA",
+   "product": "penicillin-binding protein 2'",
+   "label": "mecA penicillin-binding protein 2'",
+   "source": "AB121219",
+   "core": true
+  },
+  {
+   "protein_id": "BAD24827.1",
+   "gene": "",
+   "product": "truncated methicillin resistance protein MecR1",
+   "label": "truncated methicillin resistance protein MecR1",
+   "source": "AB121219",
+   "core": true
+  },
+  {
+   "protein_id": "BAD24828.1",
+   "gene": "",
+   "product": "transposase for IS431",
+   "label": "transposase for IS431",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24829.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "AB121219_cds206",
+   "gene": "",
+   "product": "",
+   "label": "unnamed CDS",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24830.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24831.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24832.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24833.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24834.1",
+   "gene": "ccrC",
+   "product": "cassette chromosome recombinase C",
+   "label": "ccrC cassette chromosome recombinase C",
+   "source": "AB121219",
+   "core": true
+  },
+  {
+   "protein_id": "BAD24835.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24836.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24837.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24838.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24839.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24840.1",
+   "gene": "hsdR",
+   "product": "type I restriction-modification system endonuclease homologue",
+   "label": "hsdR type I restriction-modification system endonuclease homologue",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24841.1",
+   "gene": "hsdS",
+   "product": "hsdS homologue",
+   "label": "hsdS hsdS homologue",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24842.1",
+   "gene": "hsdM",
+   "product": "HsdM protein",
+   "label": "hsdM HsdM protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24843.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "BAD24844.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "AB121219",
+   "core": false
+  },
+  {
+   "protein_id": "AAL85204.1",
+   "gene": "ccrA",
+   "product": "cassette chromosome recombinase A4",
+   "label": "ccrA cassette chromosome recombinase A4",
+   "source": "AF411935",
+   "core": true
+  },
+  {
+   "protein_id": "AAL85205.1",
+   "gene": "ccrB",
+   "product": "cassette chromosome recombinase B4",
+   "label": "ccrB cassette chromosome recombinase B4",
+   "source": "AF411935",
+   "core": true
+  },
+  {
+   "protein_id": "ACN58390.2",
+   "gene": "dmecR1",
+   "product": "truncated signal transducer protein MecR1",
+   "label": "dmecR1 truncated signal transducer protein MecR1",
+   "source": "AF411935",
+   "core": true
+  },
+  {
+   "protein_id": "ACM17485.1",
+   "gene": "orfX",
+   "product": "conserved hypothetical protein",
+   "label": "orfX conserved hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17497.1",
+   "gene": "xylR",
+   "product": "xylose repressor-like protein",
+   "label": "xylR xylose repressor-like protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17499.1",
+   "gene": "",
+   "product": "conserved hypothetical protein",
+   "label": "conserved hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17504.1",
+   "gene": "",
+   "product": "peptide L",
+   "label": "peptide L",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17511.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17512.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17513.1",
+   "gene": "",
+   "product": "conserved hypothetical protein",
+   "label": "conserved hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17514.1",
+   "gene": "",
+   "product": "conserved hypothetical protein",
+   "label": "conserved hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17515.1",
+   "gene": "ccrB4",
+   "product": "cassette chromosome recombinase B4",
+   "label": "ccrB4 cassette chromosome recombinase B4",
+   "source": "FJ390057",
+   "core": true
+  },
+  {
+   "protein_id": "ACM17516.1",
+   "gene": "ccrA4",
+   "product": "cassette chromosome recombinase A4",
+   "label": "ccrA4 cassette chromosome recombinase A4",
+   "source": "FJ390057",
+   "core": true
+  },
+  {
+   "protein_id": "ACM17517.1",
+   "gene": "",
+   "product": "putative membrane protein",
+   "label": "putative membrane protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17518.1",
+   "gene": "ccrA",
+   "product": "truncated cassette chromosome recombinase A",
+   "label": "ccrA truncated cassette chromosome recombinase A",
+   "source": "FJ390057",
+   "core": true
+  },
+  {
+   "protein_id": "ACM17519.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17520.1",
+   "gene": "",
+   "product": "hypothetical protein",
+   "label": "hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17521.1",
+   "gene": "copA",
+   "product": "copper-transporting ATPase CopA",
+   "label": "copA copper-transporting ATPase CopA",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17522.1",
+   "gene": "",
+   "product": "conserved hypothetical protein",
+   "label": "conserved hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  },
+  {
+   "protein_id": "ACM17523.1",
+   "gene": "",
+   "product": "conserved hypothetical protein",
+   "label": "conserved hypothetical protein",
+   "source": "FJ390057",
+   "core": false
+  }
+ ]
+}
