@@ -1,0 +1,904 @@
+gene,uid,accession,organism,product,length,is_refseq
+aacA,1799127934,QHJ90664,Staphylococcus epidermidis,bifunctional aminoglycoside N-acetyltransferase (plasmid) [Staphylococcus epidermidis],479,False
+aacA,1047210099,BAV31429,Staphylococcus aureus,bifunctional aminoglycoside N-acetyltransferase and aminoglycoside phosphotransferase (plasmid) [Staphylococcus aureus],491,False
+aacA,3269927202,BHE77133,Staphylococcus aureus,Bifunctional AAC/APH [Staphylococcus aureus],479,False
+aacA,2109140649,BDB35276,Staphylococcus aureus,bifunctional AAC/APH [Staphylococcus aureus],479,False
+aacA,1799127906,QHJ90638,Staphylococcus schleiferi,bifunctional aminoglycoside N-acetyltransferase (plasmid) [Staphylococcus schleiferi],459,False
+blaZ,3373384948,WP_500274272,Staphylococcus epidermidis,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus epidermidis],281,True
+blaZ,3373381650,WP_500272495,Staphylococcus epidermidis,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus epidermidis],281,True
+blaZ,3357730859,WP_494299347,Staphylococcus epidermidis,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus epidermidis],281,True
+blaZ,3351170611,WP_491485378,Staphylococcus epidermidis,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus epidermidis],281,True
+blaZ,3405573886,YHA24456,Staphylococcus epidermidis,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus epidermidis],281,False
+blaZ,3346614373,YFF13901,Staphylococcus epidermidis,penicillin-hydrolyzing class A beta-lactamase BlaZ (plasmid) [Staphylococcus epidermidis],281,False
+blaZ,3400914155,WP_510850474,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,3403389762,WP_512576265,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,3400914162,WP_510850479,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,1031793978,WP_064134773,Staphylococcus,MULTISPECIES: penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus],281,True
+blaZ,3392317322,WP_508493955,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,3388260994,WP_506735008,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,3369526797,WP_497849094,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,3373382712,WP_500273219,Staphylococcus haemolyticus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus haemolyticus],281,True
+blaZ,1603624631,WP_134273789,Staphylococcus,MULTISPECIES: penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus],281,True
+blaZ,3362926957,WP_495487892,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,3362407235,WP_495203929,Staphylococcus aureus,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus aureus],281,True
+blaZ,3363542925,WP_495691629,Staphylococcus pseudintermedius,penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus pseudintermedius],281,True
+blaZ,488388545,WP_002457930,Staphylococcus,MULTISPECIES: penicillin-hydrolyzing class A beta-lactamase BlaZ [Staphylococcus],281,True
+blaZ,3384699320,YGM83336,Staphylococcus aureus,beta-lactamase (plasmid) [Staphylococcus aureus],281,False
+mecA,3403390468,WP_512576787,Staphylococcus epidermidis,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus epidermidis],669,True
+mecA,3405573078,YHA23648,Staphylococcus epidermidis,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus epidermidis],669,False
+mecA,3379874716,YGI97254,Staphylococcus epidermidis,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus epidermidis],669,False
+mecA,3416209933,WP_522068635,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,True
+mecA,3370735060,WP_498467168,Staphylococcus borealis,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus borealis],669,True
+mecA,3342612909,YFB40058,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+mecA,3342677785,YFB93166,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+mecA,3342669498,YFB90574,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+mecA,3342664771,YFB80252,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+mecA,3342630546,YFB62982,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+mecA,3342619611,YFB29389,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+mecA,3342597466,YFB38502,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+mecA,3342563888,YFA73310,Staphylococcus aureus,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA [Staphylococcus aureus],669,False
+SCCmec,,BAA86650.1,AB033763,mecA penicillin-binding protein 2',668,False
+SCCmec,,BAA82220.1,D86934,mecA penicillin binding protein 2',668,False
+SCCmec,,BAB47623.1,AB037671,mecA penicillin-binding protein 2',668,False
+SCCmec,,BAD24826.1,AB121219,mecA penicillin-binding protein 2',668,False
+SCCmec,,BAA82219.2,D86934,mecR1 sensor transducer protein MecR1,585,False
+SCCmec,,BAA82196.1,D86934,ccrB site-specific recombinase,542,False
+SCCmec,,BAB47597.1,AB037671,ccrB3 cassette chromosome recombinase B3,542,False
+SCCmec,,BAB72109.1,AB063172,ccrB cassette chromosome recombinase B,542,False
+SCCmec,,ACM17515.1,FJ390057,ccrB4 cassette chromosome recombinase B4,542,False
+SCCmec,,BAD24834.1,AB121219,ccrC cassette chromosome recombinase C,540,False
+SCCmec,,AAL85204.1,AF411935,ccrA cassette chromosome recombinase A4,453,False
+SCCmec,,ACM17516.1,FJ390057,ccrA4 cassette chromosome recombinase A4,453,False
+SCCmec,,BAA86648.1,AB033763,ccrA1 cassette chromosome recombinase A1,449,False
+SCCmec,,BAA82194.1,D86934,ccrA site-specific recombinase,449,False
+SCCmec,,BAB72108.1,AB063172,ccrA cassette chromosome recombinase A,449,False
+SCCmec,,BAB47596.1,AB037671,ccrA3 cassette chromosome recombinase A3,448,False
+SCCmec,,AAL85205.1,AF411935,ccrB cassette chromosome recombinase B4,442,False
+SCCmec,,AB033763_cds30,AB033763,ccrB1,383,False
+SCCmec,,AB033763_cds37,AB033763,mecR1,328,False
+SCCmec,,ACN58390.2,AF411935,dmecR1 truncated signal transducer protein MecR1,322,False
+SCCmec,,BAA82218.1,D86934,mecI methicillin resistance protein MecI,123,False
+agrA,3367828943,WP_497125070,Staphylococcus epidermidis,quorum-sensing response regulator AgrA [Staphylococcus epidermidis],238,True
+agrA,3379875440,YGI97978,Staphylococcus epidermidis,quorum-sensing response regulator AgrA [Staphylococcus epidermidis],238,False
+agrA,3346636992,YFF11197,Staphylococcus epidermidis,quorum-sensing response regulator AgrA [Staphylococcus epidermidis],238,False
+agrA,3346613941,YFF13470,Staphylococcus epidermidis,quorum-sensing response regulator AgrA [Staphylococcus epidermidis],238,False
+agrA,3376286294,WP_501839863,Staphylococcus gallinarum,quorum-sensing response regulator AgrA [Staphylococcus gallinarum],240,True
+agrA,3416172756,WP_522035501,Staphylococcus borealis,quorum-sensing response regulator AgrA [Staphylococcus borealis],238,True
+agrA,3400928418,WP_510863048,Staphylococcus nepalensis,quorum-sensing response regulator AgrA [Staphylococcus nepalensis],238,True
+agrA,3403476763,WP_512651690,Staphylococcus warneri,quorum-sensing response regulator AgrA [Staphylococcus warneri],238,True
+agrA,3401568755,WP_511245147,unclassified Staphylococcus,MULTISPECIES: quorum-sensing response regulator AgrA [unclassified Staphylococcus],238,True
+agrA,3402091221,WP_511579169,Staphylococcus sp. TMW 2.2799,quorum-sensing response regulator AgrA [Staphylococcus sp. TMW 2.2799],238,True
+agrA,3383230367,WP_504294368,Staphylococcus hominis,quorum-sensing response regulator AgrA [Staphylococcus hominis],238,True
+agrA,3380430295,WP_503460448,Staphylococcus sp. K21S22,quorum-sensing response regulator AgrA [Staphylococcus sp. K21S22],238,True
+agrA,3379395580,WP_503063951,Staphylococcus pseudintermedius,quorum-sensing response regulator AgrA [Staphylococcus pseudintermedius],238,True
+agrA,2314088855,WP_262609105,Staphylococcus dromedarii,quorum-sensing response regulator AgrA [Staphylococcus dromedarii],238,True
+agrA,3349492502,WP_490858494,Staphylococcus lugdunensis,quorum-sensing response regulator AgrA [Staphylococcus lugdunensis],238,True
+agrA,3335638856,WP_487391603,Staphylococcus aureus,quorum-sensing response regulator AgrA [Staphylococcus aureus],238,True
+agrA,3356771966,WP_493623152,Staphylococcus aureus,quorum-sensing response regulator AgrA [Staphylococcus aureus],236,True
+agrA,3379021305,WP_502957191,Staphylococcus aureus,quorum-sensing response regulator AgrA [Staphylococcus aureus],222,True
+agrA,3364013664,YFY64031,Staphylococcus arlettae,quorum-sensing response regulator AgrA [Staphylococcus arlettae],238,False
+agrA,3346581140,YFE46156,Staphylococcus capitis,quorum-sensing response regulator AgrA [Staphylococcus capitis],238,False
+bhp,1436972175,SUM27705,Staphylococcus epidermidis,cell wall associated biofilm protein [Staphylococcus epidermidis],3733,False
+bhp,1436958503,SUM15404,Staphylococcus epidermidis,cell wall associated biofilm protein [Staphylococcus epidermidis],3431,False
+bhp,57636437,AAW53225,Staphylococcus epidermidis RP62A,cell wall associated biofilm protein [Staphylococcus epidermidis RP62A],2402,False
+bhp,1539999359,VEG63444,Staphylococcus condimenti,cell wall associated biofilm protein [Staphylococcus condimenti],2074,False
+bhp,1231734314,SNV98616,Staphylococcus muscae,cell wall associated biofilm protein [Staphylococcus muscae],1542,False
+icaD,3374433332,WP_500860433,Staphylococcus epidermidis,intracellular adhesion protein IcaD [Staphylococcus epidermidis],101,True
+icaD,3405572918,YHA23488,Staphylococcus epidermidis,intracellular adhesion protein IcaD [Staphylococcus epidermidis],101,False
+icaD,3364554571,WP_496234257,Staphylococcus pseudintermedius,intracellular adhesion protein IcaD [Staphylococcus pseudintermedius],108,True
+icaD,3364552035,WP_496232191,Staphylococcus pseudintermedius,intracellular adhesion protein IcaD [Staphylococcus pseudintermedius],108,True
+icaD,3363539889,WP_495689447,Staphylococcus pseudintermedius,intracellular adhesion protein IcaD [Staphylococcus pseudintermedius],108,True
+icaD,2204419000,WP_240574400,Staphylococcus,MULTISPECIES: intracellular adhesion protein IcaD [Staphylococcus],108,True
+icaD,3414426862,WP_520681206,Staphylococcus argenteus,intracellular adhesion protein IcaD [Staphylococcus argenteus],101,True
+icaD,3414426737,WP_520681140,Staphylococcus argenteus,intracellular adhesion protein IcaD [Staphylococcus argenteus],101,True
+icaD,3401565666,WP_511242782,Staphylococcus aureus,intracellular adhesion protein IcaD [Staphylococcus aureus],101,True
+icaD,3362337636,WP_495137563,Staphylococcus aureus,intracellular adhesion protein IcaD [Staphylococcus aureus],101,True
+icaD,3364555552,WP_496235055,Staphylococcus pseudintermedius,intracellular adhesion protein IcaD [Staphylococcus pseudintermedius],98,True
+icaD,3364550964,WP_496231322,Staphylococcus pseudintermedius,intracellular adhesion protein IcaD [Staphylococcus pseudintermedius],98,True
+icaD,3364550349,WP_496230817,Staphylococcus pseudintermedius,intracellular adhesion protein IcaD [Staphylococcus pseudintermedius],98,True
+icaD,3346486201,YFE08028,Staphylococcus lugdunensis,intracellular adhesion protein IcaD [Staphylococcus lugdunensis],108,False
+icaD,3342141614,YEZ65685,Staphylococcus aureus,intracellular adhesion protein IcaD [Staphylococcus aureus],106,False
+icaD,3332098125,YER87353,Staphylococcus pettenkoferi,intracellular adhesion protein IcaD [Staphylococcus pettenkoferi],102,False
+icaD,3346580525,YFE45541,Staphylococcus capitis,intracellular adhesion protein IcaD [Staphylococcus capitis],101,False
+icaD,3366525892,CAI6018899,Staphylococcus pseudintermedius,intercellular adhesion protein D [Staphylococcus pseudintermedius],98,False
+icaD,3366483563,CAI5709326,Staphylococcus pseudintermedius,intercellular adhesion protein D [Staphylococcus pseudintermedius],98,False
+icaD,3317406563,CAQ0232446,Staphylococcus nepalensis,"Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD [Staphylococcus nepalensis]",87,False
+icaR,3405572916,YHA23486,Staphylococcus epidermidis,ica operon transcriptional regulator IcaR [Staphylococcus epidermidis],185,False
+icaR,3379874884,YGI97422,Staphylococcus epidermidis,ica operon transcriptional regulator IcaR [Staphylococcus epidermidis],185,False
+icaR,3379020504,WP_502956855,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],195,True
+icaR,2876612135,WP_410248819,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3374245449,WP_500729866,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3373368027,WP_500271011,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3362337770,WP_495137693,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3356773066,WP_493623791,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3354540047,WP_492673221,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3353959711,WP_492181090,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3336166744,WP_487812696,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3333337346,WP_487035196,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3333335077,WP_487034124,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3317027707,WP_483665032,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,True
+icaR,3380431572,WP_503461383,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],160,True
+icaR,3342612837,YFB39986,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,False
+icaR,3342162235,YEZ83750,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,False
+icaR,3342115686,YEZ26271,Staphylococcus aureus,ica operon transcriptional regulator IcaR [Staphylococcus aureus],186,False
+icaR,3261284403,GAC2334873,Staphylococcus argenteus,ica operon transcriptional regulator IcaR [Staphylococcus argenteus],186,False
+IS256,,YER30624.1,Staphylococcus epidermidis,IS256 family transposase,449,False
+IS256,,YER30628.1,Staphylococcus epidermidis,IS256 family transposase,447,False
+IS256,,YER30450.1,Staphylococcus epidermidis,IS256 family transposase,414,False
+IS256,,WP_023016495.1,Bacillati,MULTISPECIES: IS256 family transposase,411,False
+IS256,,WP_006584480.1,Bacteria,MULTISPECIES: IS256 family transposase,392,False
+IS256,,WP_005727505.1,Bacteria,MULTISPECIES: IS256 family transposase,392,False
+IS256,,YHA24519.1,Staphylococcus epidermidis,IS256-like element IS256 family transposase,390,False
+IS256,,WP_496242918.1,Staphylococcus epidermidis,IS256-like element IS256 family transposase,390,False
+IS256,,WP_480976441.1,Staphylococcus epidermidis,IS256-like element IS256 family transposase,390,False
+IS256,,WP_458547179.1,Staphylococcus epidermidis,IS256-like element IS256 family transposase,390,False
+IS256,,WP_000195427.1,Bacilli,"MULTISPECIES: IS256-like element IS256 family transposase, partial",385,False
+IS256,,WP_159201510.1,Bacilli,"MULTISPECIES: IS256-like element IS256 family transposase, partial",382,False
+IS256,,WP_217971187.1,Bacilli,MULTISPECIES: IS256 family transposase,379,False
+IS256,,WP_410333138.1,Bacilli,"MULTISPECIES: IS256-like element IS256 family transposase, partial",370,False
+IS256,,YER29590.1,Staphylococcus epidermidis,IS256 family transposase,350,False
+IS256,,WP_285138579.1,Staphylococcus epidermidis,"IS256 family transposase, partial",310,False
+IS256,,WP_121844461.1,Staphylococcus,"MULTISPECIES: IS256-like element IS256 family transposase, partial",291,False
+fdh,3394231888,WP_508849220,Staphylococcus epidermidis,formate dehydrogenase subunit alpha [Staphylococcus epidermidis],983,True
+fdh,3364697972,WP_496330751,Staphylococcus epidermidis,formate dehydrogenase subunit alpha [Staphylococcus epidermidis],983,True
+fdh,3363084348,WP_495524395,Staphylococcus epidermidis,formate dehydrogenase subunit alpha [Staphylococcus epidermidis],983,True
+fdh,3380430628,WP_503460781,Staphylococcus sp. K21S22,formate dehydrogenase subunit alpha [Staphylococcus sp. K21S22],986,True
+fdh,3401566589,WP_511243240,Staphylococcus simulans,formate dehydrogenase subunit alpha [Staphylococcus simulans],985,True
+fdh,3416209877,WP_522068591,Staphylococcus aureus,formate dehydrogenase subunit alpha [Staphylococcus aureus],984,True
+fdh,3416188402,WP_522048862,Staphylococcus haemolyticus,formate dehydrogenase subunit alpha [Staphylococcus haemolyticus],984,True
+fdh,1119313935,WP_072291829,Staphylococcus pasteuri,formate dehydrogenase subunit alpha [Staphylococcus pasteuri],984,True
+fdh,3400656763,WP_510651148,Staphylococcus xylosus,formate dehydrogenase subunit alpha [Staphylococcus xylosus],984,True
+fdh,3373385904,WP_500274753,Staphylococcus cohnii,formate dehydrogenase subunit alpha [Staphylococcus cohnii],984,True
+fdh,3371910283,WP_499324506,Staphylococcus equorum,formate dehydrogenase subunit alpha [Staphylococcus equorum],984,True
+fdh,2580689728,WP_311002586,Staphylococcus,MULTISPECIES: formate dehydrogenase subunit alpha [Staphylococcus],984,True
+fdh,3383230279,WP_504294301,Staphylococcus hominis,formate dehydrogenase subunit alpha [Staphylococcus hominis],983,True
+fdh,3402091323,WP_511579271,Staphylococcus sp. TMW 2.2799,formate dehydrogenase subunit alpha [Staphylococcus sp. TMW 2.2799],978,True
+fdh,3386139694,WP_505576289,Staphylococcus chromogenes,formate dehydrogenase subunit alpha [Staphylococcus chromogenes],978,True
+fdh,2314094153,WP_262614053,Staphylococcus dromedarii,formate dehydrogenase subunit alpha [Staphylococcus dromedarii],978,True
+fdh,3364566075,WP_496242279,Staphylococcus pseudintermedius,formate dehydrogenase subunit alpha [Staphylococcus pseudintermedius],978,True
+fdh,3363527912,WP_495679593,Staphylococcus felis,formate dehydrogenase subunit alpha [Staphylococcus felis],978,True
+fdh,3364013438,YFY63805,Staphylococcus arlettae,formate dehydrogenase subunit alpha [Staphylococcus arlettae],984,False
+fdh,3351734774,YFK28570,Staphylococcus gallinarum,formate dehydrogenase subunit alpha [Staphylococcus gallinarum],984,False
+arcA,3403391483,WP_512577541,Staphylococcus epidermidis,arginine deiminase [Staphylococcus epidermidis],411,True
+arcA,3403390820,WP_512577094,Staphylococcus epidermidis,arginine deiminase [Staphylococcus epidermidis],411,True
+arcA,2189931072,WP_237641630,Staphylococcus epidermidis,arginine deiminase [Staphylococcus epidermidis],411,True
+arcA,3374433328,WP_500860429,Staphylococcus epidermidis,arginine deiminase [Staphylococcus epidermidis],411,True
+arcA,3374432689,WP_500860321,Staphylococcus epidermidis,arginine deiminase [Staphylococcus epidermidis],411,True
+arcA,3374416989,WP_500849479,Staphylococcus epidermidis,arginine deiminase [Staphylococcus epidermidis],411,True
+arcA,3374406639,WP_500842718,Staphylococcus epidermidis,arginine deiminase [Staphylococcus epidermidis],411,True
+arcA,3349451786,WP_490830425,Staphylococcus lugdunensis,arginine deiminase [Staphylococcus lugdunensis],412,True
+arcA,3416172495,WP_522035240,Staphylococcus borealis,arginine deiminase [Staphylococcus borealis],411,True
+arcA,3401567231,WP_511243623,unclassified Staphylococcus,MULTISPECIES: arginine deiminase [unclassified Staphylococcus],411,True
+arcA,2554336318,WP_303520755,Staphylococcus pasteuri,arginine deiminase [Staphylococcus pasteuri],411,True
+arcA,3380430056,WP_503460209,Staphylococcus sp. K21S22,arginine deiminase [Staphylococcus sp. K21S22],411,True
+arcA,3374421792,WP_500853191,Staphylococcus aureus,arginine deiminase [Staphylococcus aureus],411,True
+arcA,3364551474,WP_496231743,Staphylococcus pseudintermedius,arginine deiminase [Staphylococcus pseudintermedius],411,True
+arcA,3355593203,WP_493298974,Staphylococcus hominis,arginine deiminase [Staphylococcus hominis],411,True
+arcA,3349162951,WP_490680415,Staphylococcus warneri,arginine deiminase [Staphylococcus warneri],411,True
+arcA,3349154713,WP_490673765,Staphylococcus sp. CoH_129_LAB_1,arginine deiminase [Staphylococcus sp. CoH_129_LAB_1],411,True
+arcA,3363527759,WP_495679440,Staphylococcus felis,arginine deiminase [Staphylococcus felis],410,True
+arcA,3356347783,WP_493493733,Caryophanales,MULTISPECIES: arginine deiminase [Caryophanales],409,True
+arcA,3346484073,YFD99049,Staphylococcus capitis,arginine deiminase [Staphylococcus capitis],411,False
+arcB,1713280578,GEP81755,Staphylococcus kloosii,"ornithine carbamoyltransferase, catabolic [Staphylococcus kloosii]",348,False
+arcB,3269928227,BHE78158,Staphylococcus aureus,"Ornithine carbamoyltransferase, catabolic [Staphylococcus aureus]",336,False
+arcB,3269925505,BHE75439,Staphylococcus aureus,"Ornithine carbamoyltransferase, catabolic [Staphylococcus aureus]",336,False
+arcB,1451057299,GBY35996,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1957248237,CAD7352695,Staphylococcus aureus,ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,2704382250,GAA5598009,Staphylococcus aureus,"ornithine carbamoyltransferase, catabolic [Staphylococcus aureus]",336,False
+arcB,2704350710,GAA5471573,Staphylococcus aureus,"ornithine carbamoyltransferase, catabolic [Staphylococcus aureus]",336,False
+arcB,1451607027,GBT81417,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1451279951,GBR80885,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1451587667,GBT64594,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1451252100,GCA25377,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1451239915,GCA12135,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1451202151,GBZ77623,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1451123637,GBZ03746,Staphylococcus aureus,putative ornithine carbamoyltransferase [Staphylococcus aureus],336,False
+arcB,1713285535,GEQ00244,Staphylococcus arlettae,"ornithine carbamoyltransferase, catabolic [Staphylococcus arlettae]",333,False
+arcB,390516763,BAM21117,Staphylococcus aureus,ornithine carbamoyltransferase [Staphylococcus aureus],332,False
+arcB,1713268528,GEP86042,Staphylococcus cohnii subsp. cohnii,"ornithine carbamoyltransferase, catabolic [Staphylococcus cohnii subsp. cohnii]",331,False
+arcB,1713320527,GEQ06084,Staphylococcus gallinarum,ornithine carbamoyltransferase [Staphylococcus gallinarum],324,False
+arcB,1713272309,GEQ03343,Staphylococcus ureilyticus,ornithine carbamoyltransferase [Staphylococcus ureilyticus],324,False
+arcB,1713293647,GEQ10839,Staphylococcus xylosus,ornithine carbamoyltransferase [Staphylococcus xylosus],314,False
+arcC,3405572966,YHA23536,Staphylococcus epidermidis,carbamate kinase [Staphylococcus epidermidis],310,False
+arcC,3379874833,YGI97371,Staphylococcus epidermidis,carbamate kinase [Staphylococcus epidermidis],310,False
+arcC,3350430384,YFI14489,Staphylococcus epidermidis,carbamate kinase [Staphylococcus epidermidis],310,False
+arcC,3346636332,YFF10537,Staphylococcus epidermidis,carbamate kinase [Staphylococcus epidermidis],310,False
+arcC,3346621238,YFF15129,Staphylococcus epidermidis,carbamate kinase [Staphylococcus epidermidis],310,False
+arcC,3346613321,YFF12850,Staphylococcus epidermidis,carbamate kinase [Staphylococcus epidermidis],310,False
+arcC,3379874757,YGI97295,Staphylococcus epidermidis,carbamate kinase [Staphylococcus epidermidis],309,False
+arcC,3355569736,WP_493282368,Staphylococcus cohnii,carbamate kinase [Staphylococcus cohnii],316,True
+arcC,3356347786,WP_493493736,Caryophanales,MULTISPECIES: carbamate kinase [Caryophanales],314,True
+arcC,3403389549,WP_512576143,Staphylococcus aureus,carbamate kinase [Staphylococcus aureus],313,True
+arcC,3401567228,WP_511243620,unclassified Staphylococcus,MULTISPECIES: carbamate kinase [unclassified Staphylococcus],313,True
+arcC,3392319831,WP_508496002,Staphylococcus simulans,carbamate kinase [Staphylococcus simulans],313,True
+arcC,3364553163,WP_496233102,Staphylococcus pseudintermedius,carbamate kinase [Staphylococcus pseudintermedius],313,True
+arcC,3402088477,WP_511576433,Staphylococcus sp. TMW 2.2799,carbamate kinase [Staphylococcus sp. TMW 2.2799],312,True
+arcC,2314094393,WP_262614291,Staphylococcus dromedarii,carbamate kinase [Staphylococcus dromedarii],311,True
+arcC,517998602,WP_019168810,Staphylococcus intermedius group,MULTISPECIES: carbamate kinase [Staphylococcus intermedius group],311,True
+arcC,3402110210,WP_511596754,Staphylococcus coagulans,carbamate kinase [Staphylococcus coagulans],310,True
+arcC,3356347481,WP_493493431,Caryophanales,MULTISPECIES: carbamate kinase [Caryophanales],309,True
+arcC,3346484076,YFD99052,Staphylococcus capitis,carbamate kinase [Staphylococcus capitis],314,False
+arcC,3346578227,YFE38707,Staphylococcus warneri,carbamate kinase [Staphylococcus warneri],313,False
+arcD,3374434350,WP_500860734,Staphylococcus epidermidis,arginine-ornithine antiporter [Staphylococcus epidermidis],473,True
+arcD,3374428815,WP_500858676,Staphylococcus epidermidis,arginine-ornithine antiporter [Staphylococcus epidermidis],473,True
+arcD,3374430784,WP_500859886,Staphylococcus epidermidis,arginine-ornithine antiporter [Staphylococcus epidermidis],467,True
+arcD,3373381374,WP_500272219,Staphylococcus epidermidis,arginine-ornithine antiporter [Staphylococcus epidermidis],467,True
+arcD,3364697941,WP_496330720,Staphylococcus epidermidis,arginine-ornithine antiporter [Staphylococcus epidermidis],467,True
+arcD,3357723307,WP_494293755,Staphylococcus epidermidis,arginine-ornithine antiporter [Staphylococcus epidermidis],467,True
+arcD,3353540236,WP_491969118,Staphylococcus epidermidis,arginine-ornithine antiporter [Staphylococcus epidermidis],467,True
+arcD,3402110256,WP_511596800,Staphylococcus coagulans,arginine-ornithine antiporter [Staphylococcus coagulans],476,True
+arcD,2554336321,WP_303520757,Staphylococcus pasteuri,arginine-ornithine antiporter [Staphylococcus pasteuri],476,True
+arcD,3401570282,WP_511246532,Staphylococcus sp. TMW 2.2790,arginine-ornithine antiporter [Staphylococcus sp. TMW 2.2790],476,True
+arcD,3380430055,WP_503460208,Staphylococcus sp. K21S22,arginine-ornithine antiporter [Staphylococcus sp. K21S22],476,True
+arcD,3370788138,WP_498514856,Staphylococcus borealis,arginine-ornithine antiporter [Staphylococcus borealis],476,True
+arcD,2045084072,WP_213667904,Staphylococcus,MULTISPECIES: arginine-ornithine antiporter [Staphylococcus],476,True
+arcD,3347581737,WP_490309748,Staphylococcus warneri,arginine-ornithine antiporter [Staphylococcus warneri],476,True
+arcD,3335639058,WP_487391805,Staphylococcus aureus,arginine-ornithine antiporter [Staphylococcus aureus],476,True
+arcD,3363527758,WP_495679439,Staphylococcus felis,arginine-ornithine antiporter [Staphylococcus felis],474,True
+arcD,3401581838,WP_511254886,Staphylococcus chromogenes,arginine-ornithine antiporter [Staphylococcus chromogenes],472,True
+arcD,3356347785,WP_493493735,Caryophanales,MULTISPECIES: arginine-ornithine antiporter [Caryophanales],471,True
+arcD,3366490650,CAI6014819,Staphylococcus pseudintermedius,arginine/ornithine antiporter [Staphylococcus pseudintermedius],476,False
+arcD,3342576399,YFB02509,Staphylococcus aureus,arginine-ornithine antiporter [Staphylococcus aureus],476,False
+argR,3374431934,WP_500860169,Staphylococcus epidermidis,transcriptional regulator AhrC/ArgR [Staphylococcus epidermidis],150,True
+argR,3363084304,WP_495524351,Staphylococcus epidermidis,transcriptional regulator AhrC/ArgR [Staphylococcus epidermidis],150,True
+argR,3405574305,YHA24875,Staphylococcus epidermidis,transcriptional regulator ArgR [Staphylococcus epidermidis],150,False
+argR,3346612107,YFF11636,Staphylococcus epidermidis,transcriptional regulator ArgR [Staphylococcus epidermidis],150,False
+argR,3346604924,YFE86933,Staphylococcus epidermidis,transcriptional regulator ArgR [Staphylococcus epidermidis],150,False
+argR,3356347704,WP_493493654,Caryophanales,MULTISPECIES: transcriptional regulator AhrC/ArgR [Caryophanales],151,True
+argR,3416188144,WP_522048674,Staphylococcus hominis,transcriptional regulator AhrC/ArgR [Staphylococcus hominis],150,True
+argR,3402090037,WP_511577993,Staphylococcus sp. TMW 2.2799,transcriptional regulator AhrC/ArgR [Staphylococcus sp. TMW 2.2799],150,True
+argR,2314028722,WP_262558230,Staphylococcus,MULTISPECIES: transcriptional regulator AhrC/ArgR [Staphylococcus],150,True
+argR,3363537632,WP_495688444,Staphylococcus coagulans,transcriptional regulator AhrC/ArgR [Staphylococcus coagulans],150,True
+argR,3364549129,WP_496229752,Staphylococcus pseudintermedius,transcriptional regulator AhrC/ArgR [Staphylococcus pseudintermedius],150,True
+argR,3363541938,WP_495690796,Staphylococcus nepalensis,transcriptional regulator AhrC/ArgR [Staphylococcus nepalensis],150,True
+argR,3356770764,WP_493622586,Staphylococcus aureus,transcriptional regulator AhrC/ArgR [Staphylococcus aureus],150,True
+argR,3349154444,WP_490673496,Staphylococcus sp. CoH_129_LAB_1,transcriptional regulator AhrC/ArgR [Staphylococcus sp. CoH_129_LAB_1],150,True
+argR,3364016297,YFY66663,Staphylococcus gallinarum,transcriptional regulator AhrC/ArgR [Staphylococcus gallinarum],150,False
+argR,3364014066,YFY64433,Staphylococcus arlettae,transcriptional regulator AhrC/ArgR [Staphylococcus arlettae],150,False
+argR,3364008412,YFY61237,Staphylococcus haemolyticus,transcriptional regulator AhrC/ArgR [Staphylococcus haemolyticus],150,False
+argR,3346579380,YFE44396,Staphylococcus capitis,transcriptional regulator ArgR [Staphylococcus capitis],150,False
+argR,3346577096,YFE37576,Staphylococcus warneri,transcriptional regulator ArgR [Staphylococcus warneri],150,False
+argR,3346485165,YFE06992,Staphylococcus lugdunensis,transcriptional regulator ArgR [Staphylococcus lugdunensis],150,False
+opp3A,807233984,AKC76686,Staphylococcus haemolyticus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus haemolyticus]",552,False
+opp3A,1451606020,GBT82241,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3A,1451279373,GBR82140,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3A,1451272255,GCA47467,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3A,1451270581,GCA43769,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3A,1451261215,GCA32651,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3A,1451212950,GBZ87270,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3A,1451137672,GBZ15601,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3A,1451098923,GBY77505,Staphylococcus aureus,"oligopeptide ABC superfamily ATP binding cassette transporter, binding protein, Opp3A [Staphylococcus aureus]",551,False
+opp3B,3374420793,WP_500852449,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],308,True
+opp3B,3374407319,WP_500842957,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],308,True
+opp3B,3373381436,WP_500272281,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],308,True
+opp3B,3357729837,WP_494298756,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],308,True
+opp3B,3357723321,WP_494293769,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],308,True
+opp3B,3405572538,YHA23108,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],308,False
+opp3B,3346610271,YFE85142,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],308,False
+opp3B,3380431553,WP_503461364,Staphylococcus aureus,oligopeptide ABC transporter permease [Staphylococcus aureus],311,True
+opp3B,3402088492,WP_511576448,Staphylococcus sp. TMW 2.2799,oligopeptide ABC transporter permease [Staphylococcus sp. TMW 2.2799],309,True
+opp3B,3380430465,WP_503460618,Staphylococcus sp. K21S22,oligopeptide ABC transporter permease [Staphylococcus sp. K21S22],309,True
+opp3B,3401568072,WP_511244464,unclassified Staphylococcus,MULTISPECIES: oligopeptide ABC transporter permease [unclassified Staphylococcus],308,True
+opp3B,3380429645,WP_503459798,Staphylococcus sp. K21S22,oligopeptide ABC transporter permease [Staphylococcus sp. K21S22],308,True
+opp3B,3383657943,WP_504464167,Staphylococcus warneri,oligopeptide ABC transporter permease [Staphylococcus warneri],308,True
+opp3B,2314082969,WP_262604665,Staphylococcus dromedarii,oligopeptide ABC transporter permease [Staphylococcus dromedarii],308,True
+opp3B,3356780850,WP_493628250,Staphylococcus kloosii,oligopeptide ABC transporter permease [Staphylococcus kloosii],308,True
+opp3B,3355557490,WP_493272472,Staphylococcus kloosii,oligopeptide ABC transporter permease [Staphylococcus kloosii],308,True
+opp3B,3353954798,WP_492177734,Staphylococcus aureus,oligopeptide ABC transporter permease [Staphylococcus aureus],308,True
+opp3B,3364015745,YFY66111,Staphylococcus gallinarum,oligopeptide ABC transporter permease [Staphylococcus gallinarum],308,False
+opp3B,3364014530,YFY64897,Staphylococcus arlettae,oligopeptide ABC transporter permease [Staphylococcus arlettae],308,False
+opp3B,3351733419,YFK27215,Staphylococcus gallinarum,oligopeptide ABC transporter permease [Staphylococcus gallinarum],308,False
+opp3C,3374406009,WP_500842534,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],356,True
+opp3C,3349162630,WP_490680210,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],356,True
+opp3C,3347592251,WP_490316959,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],356,True
+opp3C,3347578923,WP_490307354,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],356,True
+opp3C,3405572537,YHA23107,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],356,False
+opp3C,3346635647,YFF09852,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],356,False
+opp3C,3346610270,YFE85141,Staphylococcus epidermidis,oligopeptide ABC transporter permease [Staphylococcus epidermidis],356,False
+opp3C,3352322526,WP_491624355,Staphylococcus aureus,oligopeptide ABC transporter permease [Staphylococcus aureus],356,True
+opp3C,3363529380,WP_495680848,Staphylococcus xylosus,oligopeptide ABC transporter permease [Staphylococcus xylosus],355,True
+opp3C,3356780851,WP_493628251,Staphylococcus kloosii,oligopeptide ABC transporter permease [Staphylococcus kloosii],355,True
+opp3C,3355557491,WP_493272473,Staphylococcus kloosii,oligopeptide ABC transporter permease [Staphylococcus kloosii],355,True
+opp3C,3355464393,WP_493196447,Staphylococcus sp. GW821-FHT11H10,oligopeptide ABC transporter permease [Staphylococcus sp. GW821-FHT11H10],355,True
+opp3C,3402088915,WP_511576871,Staphylococcus sp. TMW 2.2799,oligopeptide ABC transporter permease [Staphylococcus sp. TMW 2.2799],354,True
+opp3C,1512676522,WP_123144303,Staphylococcus,MULTISPECIES: oligopeptide ABC transporter permease [Staphylococcus],354,True
+opp3C,3401570904,WP_511247154,Staphylococcus sp. TMW 2.2790,oligopeptide ABC transporter permease [Staphylococcus sp. TMW 2.2790],353,True
+opp3C,2314094556,WP_262614447,Staphylococcus dromedarii,oligopeptide ABC transporter permease [Staphylococcus dromedarii],353,True
+opp3C,3356783994,WP_493630531,Staphylococcus warneri,oligopeptide ABC transporter permease [Staphylococcus warneri],352,True
+opp3C,3380430464,WP_503460617,Staphylococcus sp. K21S22,oligopeptide ABC transporter permease [Staphylococcus sp. K21S22],340,True
+opp3C,3346579844,YFE44860,Staphylococcus capitis,oligopeptide ABC transporter permease [Staphylococcus capitis],340,False
+opp3C,3346679811,YFF33105,Staphylococcus aureus,oligopeptide ABC transporter permease [Staphylococcus aureus],339,False
+opp3D,1424420998,AXB89337,Staphylococcus epidermidis,"nickel (Ni2+)/peptide ABC superfamily ATP binding cassette transporter, ABC protein [Staphylococcus epidermidis]",255,False
+opp3D,1424420903,AXB89244,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],255,False
+opp3D,1369210046,AVP80773,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],255,False
+opp3D,1218806742,ASM79718,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],255,False
+opp3D,554618846,BAO02843,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],255,False
+opp3D,554618819,BAO02818,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],255,False
+opp3D,554618804,BAO02804,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],255,False
+opp3D,619321035,AHX99858,Staphylococcus haemolyticus,"ABC transporter, ATP-binding protein [Staphylococcus haemolyticus]",193,False
+opp3E,1424420999,AXB89338,Staphylococcus epidermidis,"nickel (Ni2+)/peptide ABC superfamily ATP binding cassette transporter, ABC protein [Staphylococcus epidermidis]",218,False
+opp3E,1424420904,AXB89245,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],218,False
+opp3E,1369210047,AVP80774,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],211,False
+opp3E,1218806743,ASM79719,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],211,False
+opp3E,554618847,BAO02844,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],211,False
+opp3E,554618820,BAO02819,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],211,False
+opp3E,554618805,BAO02805,Staphylococcus epidermidis,ABC transporter ATP-binding protein [Staphylococcus epidermidis],211,False
+opp3E,619321036,AHX99859,Staphylococcus haemolyticus,"ABC transporter, ATP-binding protein [Staphylococcus haemolyticus]",211,False
+kdpA,3346621149,YFF15040,Staphylococcus epidermidis,potassium-transporting ATPase subunit KdpA [Staphylococcus epidermidis],560,False
+kdpA,3335641263,WP_487392791,Staphylococcus capitis,potassium-transporting ATPase subunit KdpA [Staphylococcus capitis],560,True
+kdpA,3333345566,WP_487038408,Staphylococcus capitis,potassium-transporting ATPase subunit KdpA [Staphylococcus capitis],560,True
+kdpA,3406035187,WP_514233149,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3403389929,WP_512576380,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3403388626,WP_512575596,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3401565757,WP_511242873,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3388578323,WP_506796142,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3379015810,WP_502954524,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3374421234,WP_500852633,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3363542373,WP_495691197,Staphylococcus coagulans,potassium-transporting ATPase subunit KdpA [Staphylococcus coagulans],558,True
+kdpA,3364558836,WP_496237094,Staphylococcus pseudintermedius,potassium-transporting ATPase subunit KdpA [Staphylococcus pseudintermedius],558,True
+kdpA,3363534666,WP_495685683,Staphylococcus felis,potassium-transporting ATPase subunit KdpA [Staphylococcus felis],558,True
+kdpA,3349443426,WP_490823273,Staphylococcus lugdunensis,potassium-transporting ATPase subunit KdpA [Staphylococcus lugdunensis],558,True
+kdpA,3336169426,WP_487815308,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3336134407,WP_487782927,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3333346941,WP_487039210,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,True
+kdpA,3364563839,WP_496240762,Staphylococcus agnetis,potassium-transporting ATPase subunit KdpA [Staphylococcus agnetis],556,True
+kdpA,3346580455,YFE45471,Staphylococcus capitis,potassium-transporting ATPase subunit KdpA [Staphylococcus capitis],560,False
+kdpA,3342612931,YFB40080,Staphylococcus aureus,potassium-transporting ATPase subunit KdpA [Staphylococcus aureus],558,False
+kdpB,3414426851,WP_520681195,Staphylococcus argenteus,potassium-transporting ATPase subunit KdpB [Staphylococcus argenteus],675,True
+kdpB,3414334804,WP_520590797,Staphylococcus argenteus,potassium-transporting ATPase subunit KdpB [Staphylococcus argenteus],675,True
+kdpB,3406020707,WP_514220643,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3406211559,WP_514358451,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3403384172,WP_512574000,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3403375747,WP_512571628,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3403365381,WP_512568211,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3379019262,WP_502956419,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3374421233,WP_500852632,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3363084851,WP_495524549,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3356776605,WP_493624482,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3353981232,WP_492198293,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3349103111,WP_490649362,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3333333950,WP_487033439,Staphylococcus aureus,potassium-transporting ATPase subunit KdpB [Staphylococcus aureus],675,True
+kdpB,3402109943,WP_511596488,Staphylococcus coagulans,potassium-transporting ATPase subunit KdpB [Staphylococcus coagulans],674,True
+kdpB,3364558835,WP_496237093,Staphylococcus pseudintermedius,potassium-transporting ATPase subunit KdpB [Staphylococcus pseudintermedius],674,True
+kdpB,3364552399,WP_496232499,Staphylococcus pseudintermedius,potassium-transporting ATPase subunit KdpB [Staphylococcus pseudintermedius],674,True
+kdpB,3363527756,WP_495679437,Staphylococcus felis,potassium-transporting ATPase subunit KdpB [Staphylococcus felis],674,True
+kdpB,3364563838,WP_496240761,Staphylococcus agnetis,potassium-transporting ATPase subunit KdpB [Staphylococcus agnetis],664,True
+kdpB,3335718477,WP_487410890,Staphylococcus hyicus,potassium-transporting ATPase subunit KdpB [Staphylococcus hyicus],664,True
+kdpC,3145228386,WP_459453477,Staphylococcus epidermidis,potassium-transporting ATPase subunit KdpC [Staphylococcus epidermidis],186,True
+kdpC,3346621150,YFF15041,Staphylococcus epidermidis,K(+)-transporting ATPase subunit C [Staphylococcus epidermidis],186,False
+kdpC,3113367207,WP_449130333,Staphylococcus hyicus,K(+)-transporting ATPase subunit C [Staphylococcus hyicus],193,True
+kdpC,2993799602,WP_432372181,Staphylococcus chromogenes,potassium-transporting ATPase subunit KdpC [Staphylococcus chromogenes],193,True
+kdpC,2911587680,WP_415410624,Staphylococcus agnetis,K(+)-transporting ATPase subunit C [Staphylococcus agnetis],193,True
+kdpC,2836032184,WP_394274571,Staphylococcus hyicus,K(+)-transporting ATPase subunit C [Staphylococcus hyicus],193,True
+kdpC,2820057916,WP_381418410,Staphylococcus hyicus,K(+)-transporting ATPase subunit C [Staphylococcus hyicus],193,True
+kdpC,3044094501,WP_440552111,Staphylococcus simulans,potassium-transporting ATPase subunit KdpC [Staphylococcus simulans],187,True
+kdpC,3414110748,WP_520418576,Staphylococcus argenteus,K(+)-transporting ATPase subunit C [Staphylococcus argenteus],186,True
+kdpC,3363539427,WP_495689188,Staphylococcus pseudintermedius,K(+)-transporting ATPase subunit C [Staphylococcus pseudintermedius],186,True
+kdpC,3123895586,WP_454268968,Staphylococcus capitis,K(+)-transporting ATPase subunit C [Staphylococcus capitis],186,True
+kdpC,3123899174,WP_454272449,Staphylococcus caprae,K(+)-transporting ATPase subunit C [Staphylococcus caprae],186,True
+kdpC,2855259670,WP_401489811,Staphylococcus capitis,potassium-transporting ATPase subunit KdpC [Staphylococcus capitis],186,True
+kdpC,2840774704,WP_394864853,Staphylococcus delphini,potassium-transporting ATPase subunit KdpC [Staphylococcus delphini],186,True
+kdpC,2875049671,WP_410049383,Staphylococcus felis,K(+)-transporting ATPase subunit C [Staphylococcus felis],181,True
+kdpC,2907735001,CAM2927944,Staphylococcus schleiferi subsp. schleiferi,potassium-transporting ATPase subunit KdpC [Staphylococcus schleiferi subsp. schleiferi],187,False
+kdpC,2907719997,CAM3115004,Staphylococcus lugdunensis,K(+)-transporting ATPase subunit C [Staphylococcus lugdunensis],187,False
+kdpC,1806771766,QHW38199,Staphylococcus ursi,potassium-transporting ATPase subunit KdpC [Staphylococcus ursi],186,False
+kdpC,2910032371,CAM4120032,Staphylococcus schweitzeri,K(+)-transporting ATPase subunit C [Staphylococcus schweitzeri],186,False
+kdpC,2907761873,CAM3669486,Staphylococcus aureus,K(+)-transporting ATPase subunit C [Staphylococcus aureus],186,False
+kdpD,3269927690,BHE77621,Staphylococcus aureus,Sensor protein KdpD [Staphylococcus aureus],885,False
+kdpD,3129178173,CAO4197660,Staphylococcus aureus,sensor protein KdpD [Staphylococcus aureus],885,False
+kdpD,3129177673,CAO4201551,Staphylococcus aureus,sensor protein KdpD [Staphylococcus aureus],885,False
+kdpD,2918296762,CAM2093017,Staphylococcus aureus,Sensor histidine kinase KdpD [Staphylococcus aureus],885,False
+kdpD,2910032375,CAM4120182,Staphylococcus schweitzeri,sensor histidine kinase KdpD [Staphylococcus schweitzeri],885,False
+kdpD,2910019675,CAM4245927,Staphylococcus aureus,sensor histidine kinase KdpD [Staphylococcus aureus],885,False
+kdpD,2907798145,CAM3427390,Staphylococcus aureus,sensor histidine kinase KdpD [Staphylococcus aureus],885,False
+kdpD,2704395665,GAA5762688,Staphylococcus aureus,sensor protein KdpD [Staphylococcus aureus],885,False
+kdpD,2704376100,GAA5467244,Staphylococcus aureus,sensor protein KdpD [Staphylococcus aureus],885,False
+kdpD,2704368206,GAA5469868,Staphylococcus aureus,sensor protein KdpD [Staphylococcus aureus],885,False
+kdpD,2704352676,GAA5451910,Staphylococcus aureus,sensor protein KdpD [Staphylococcus aureus],885,False
+kdpD,2565983700,CAJ1321920,Staphylococcus aureus,Sensor histidine kinase KdpD [Staphylococcus aureus],885,False
+kdpD,2907720001,CAM3115176,Staphylococcus lugdunensis,sensor histidine kinase KdpD [Staphylococcus lugdunensis],884,False
+kdpD,3366538651,CAI6077599,Staphylococcus pseudintermedius,Osmosensitive K+ channel histidine kinase KdpD [Staphylococcus pseudintermedius],874,False
+kdpD,3366530854,CAI6073305,Staphylococcus pseudintermedius,Osmosensitive K+ channel histidine kinase KdpD [Staphylococcus pseudintermedius],874,False
+kdpD,3366528477,CAI6079834,Staphylococcus pseudintermedius,Osmosensitive K+ channel histidine kinase KdpD [Staphylococcus pseudintermedius],874,False
+kdpD,3366515071,CAI6075080,Staphylococcus pseudintermedius,Osmosensitive K+ channel histidine kinase KdpD [Staphylococcus pseudintermedius],874,False
+kdpD,3366492852,CAI6071640,Staphylococcus pseudintermedius,Osmosensitive K+ channel histidine kinase KdpD [Staphylococcus pseudintermedius],874,False
+kdpD,3366488097,CAI6049361,Staphylococcus pseudintermedius,Osmosensitive K+ channel histidine kinase KdpD [Staphylococcus pseudintermedius],874,False
+kdpD,2907734997,CAM2927782,Staphylococcus schleiferi subsp. schleiferi,sensor histidine kinase KdpD [Staphylococcus schleiferi subsp. schleiferi],871,False
+kdpE,3269927691,BHE77622,Staphylococcus aureus,KDP operon transcriptional regulatory protein KdpE [Staphylococcus aureus],231,False
+kdpE,2918296763,CAM2093018,Staphylococcus aureus,Transcriptional regulatory protein KdpE [Staphylococcus aureus],231,False
+kdpE,2897643451,XKU05120,Staphylococcus aureus,KDP operon transcriptional regulatory protein KdpE [Staphylococcus aureus],231,False
+kdpE,2704395664,GAA5762687,Staphylococcus aureus,KDP operon transcriptional regulatory protein KdpE [Staphylococcus aureus],231,False
+kdpE,2704392183,GAA5601612,Staphylococcus aureus,KDP operon transcriptional regulatory protein KdpE [Staphylococcus aureus],231,False
+kdpE,2704371212,GAA5696123,Staphylococcus aureus,KDP operon transcriptional regulatory protein KdpE [Staphylococcus aureus],231,False
+kdpE,2704352675,GAA5451909,Staphylococcus aureus,KDP operon transcriptional regulatory protein KdpE [Staphylococcus aureus],231,False
+kdpE,3366543873,CAI6078195,Staphylococcus pseudintermedius,DNA-binding response regulator KdpE [Staphylococcus pseudintermedius],229,False
+kdpE,3366538650,CAI6077581,Staphylococcus pseudintermedius,DNA-binding response regulator KdpE [Staphylococcus pseudintermedius],229,False
+kdpE,3366533444,CAI6077532,Staphylococcus pseudintermedius,DNA-binding response regulator KdpE [Staphylococcus pseudintermedius],229,False
+kdpE,3366530853,CAI6073277,Staphylococcus pseudintermedius,DNA-binding response regulator KdpE [Staphylococcus pseudintermedius],229,False
+kdpE,3366492851,CAI6071614,Staphylococcus pseudintermedius,DNA-binding response regulator KdpE [Staphylococcus pseudintermedius],229,False
+kdpE,3366488096,CAI6049331,Staphylococcus pseudintermedius,DNA-binding response regulator KdpE [Staphylococcus pseudintermedius],229,False
+aadD,555289336,CDG34654,Staphylococcus epidermidis,aminoglycoside adenyltransferase (plasmid) [Staphylococcus epidermidis],241,False
+aadD,2452036424,BDY07138,Staphylococcus aureus,kanamycin 4'-adenylyltransferase (plasmid) [Staphylococcus aureus],256,False
+aadD,2417763670,BDV24707,Staphylococcus aureus,kanamycin nucleotidyltransferase (plasmid) [Staphylococcus aureus],253,False
+aadD,3386589293,BIN20380,Staphylococcus aureus,ANT(4') [Staphylococcus aureus],247,False
+aadD,1857217783,CAC6064064,Staphylococcus aureus,Kanamycin nucleotidyltransferase [Staphylococcus aureus],247,False
+aadD,1857176895,CAC6210799,Staphylococcus aureus,Kanamycin nucleotidyltransferase [Staphylococcus aureus],247,False
+aadD,1857094234,CAC8638545,Staphylococcus aureus,Kanamycin nucleotidyltransferase [Staphylococcus aureus],230,False
+aadD,1857909558,CAC7780316,Staphylococcus aureus,Kanamycin nucleotidyltransferase [Staphylococcus aureus],145,False
+dfrC,3028344776,WP_437184830,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],171,True
+dfrC,3140961333,WP_459042105,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],168,True
+dfrC,3380428152,WP_503458813,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,3374408053,WP_500843173,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,3357727019,WP_494296411,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,3275979525,WP_480975680,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,3140980726,WP_459056832,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,3123933122,WP_454302947,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,3028381273,WP_437218028,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,2820048467,WP_381410098,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,2783304678,WP_369040666,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,True
+dfrC,2866914640,XLI45129,Staphylococcus epidermidis,trimethoprim-resistant dihydrofolate reductase DfrC [Staphylococcus epidermidis],167,False
+dfrC,3170375055,YCS72876,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,False
+dfrC,3044327562,XZA28391,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,False
+dfrC,3044317349,XZA23638,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,False
+dfrC,2906399479,XOF67594,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,False
+dfrC,2811870267,XHJ10979,Staphylococcus epidermidis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus epidermidis],161,False
+dfrC,1543252922,WP_126122262,Staphylococcus,MULTISPECIES: trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus],161,True
+dfrC,2848923090,WP_398573749,Staphylococcus pasteuri,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus pasteuri],161,True
+dfrC,3173600325,GAC1772495,Staphylococcus capitis,trimethoprim-sensitive dihydrofolate reductase DfrC [Staphylococcus capitis],161,False
+dfrG,3028414579,WP_437248443,Staphylococcus epidermidis,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus epidermidis],165,True
+dfrG,2218277995,WP_243580443,Staphylococcus epidermidis,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus epidermidis],165,True
+dfrG,2912630604,XOM13526,Staphylococcus epidermidis,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus epidermidis],165,False
+dfrG,3279860148,WP_482730702,Staphylococcus pseudintermedius,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus pseudintermedius],165,True
+dfrG,3110781276,WP_447491711,Staphylococcus aureus,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus aureus],165,True
+dfrG,3047022371,WP_442248038,Staphylococcus pseudintermedius,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus pseudintermedius],165,True
+dfrG,2829907351,WP_390542948,Staphylococcus pseudintermedius,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus pseudintermedius],165,True
+dfrG,2646941863,WP_324173074,Staphylococcus pseudintermedius,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus pseudintermedius],165,True
+dfrG,2456054341,WP_275505059,Staphylococcus aureus,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus aureus],165,True
+dfrG,2431495119,WP_271286121,Staphylococcus aureus,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus aureus],165,True
+dfrG,1928302238,WP_193838860,unclassified Staphylococcus,MULTISPECIES: trimethoprim-resistant dihydrofolate reductase DfrG [unclassified Staphylococcus],165,True
+dfrG,2214268611,WP_242742939,Staphylococcus aureus,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus aureus],163,True
+dfrG,3342090653,YEZ12161,Staphylococcus aureus,trimethoprim-resistant dihydrofolate reductase DfrG [Staphylococcus aureus],165,False
+ermA,2269886482,WP_254104725,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus epidermidis],243,True
+ermA,3044331114,XZA31910,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus epidermidis],243,False
+ermA,2532796902,WP_290216013,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],298,True
+ermA,2820025461,WP_381387613,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],269,True
+ermA,1915687075,WP_192795229,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],266,True
+ermA,1909475274,WP_190367246,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],266,True
+ermA,920553106,WP_052999751,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],246,True
+ermA,3400820035,WP_510773641,Staphylococcus borealis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus borealis],243,True
+ermA,1772108720,WP_153171712,Bacilli,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Bacilli],243,True
+ermA,686343978,WP_031885441,Bacilli,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Bacilli],243,True
+ermA,3336134471,WP_487782982,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],243,True
+ermA,3318622044,WP_483725871,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],243,True
+ermA,2914060289,WP_416152538,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],243,True
+ermA,2804623424,WP_374733383,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],243,True
+ermA,1092464280,WP_070453928,Staphylococcus,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus],243,True
+ermA,488289636,WP_002360844,Bacteria,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Bacteria],243,True
+ermA,446994939,WP_001072195,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],243,True
+ermA,2311194317,WP_261934057,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],241,True
+ermA,917425278,WP_052031990,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A) [Staphylococcus aureus],231,True
+ermA,3366542562,CAI6046748,Staphylococcus pseudintermedius,rRNA adenine N-6-methyltransferase ermA [Staphylococcus pseudintermedius],193,False
+ermB,2859861835,BFT97325,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus epidermidis],245,False
+ermB,3279800082,WP_482674509,Staphylococcus pseudintermedius,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus pseudintermedius],256,True
+ermB,3138306454,WP_458507418,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],256,True
+ermB,2820046101,WP_381407752,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],254,True
+ermB,446961540,WP_001038796,Bacteria,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Bacteria],245,True
+ermB,3279778726,WP_482656284,Staphylococcus pseudintermedius,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus pseudintermedius],245,True
+ermB,446961536,WP_001038792,Bacteria,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Bacteria],245,True
+ermB,910242330,WP_050047025,Bacilli,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Bacilli],245,True
+ermB,2829961402,WP_390590165,Staphylococcus pseudintermedius,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus pseudintermedius],245,True
+ermB,2720621649,WP_341975454,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,2583599662,WP_312011922,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,2292762891,WP_258796777,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,1907298095,WP_189912527,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,1695473601,WP_141062714,Bacilli,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Bacilli],245,True
+ermB,1427263440,WP_113590303,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,1427136949,WP_113589273,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,1427098036,WP_113556767,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,1149047992,WP_077638176,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus aureus],245,True
+ermB,505195033,WP_015382135,Staphylococcus hyicus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Staphylococcus hyicus],245,True
+ermB,446961538,WP_001038794,Bacilli,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(B) [Bacilli],245,True
+ermC,3374432202,WP_500860251,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,True
+ermC,3374417036,WP_500849525,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,True
+ermC,499192393,WP_010889933,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,True
+ermC,2878806643,WP_410333136,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,True
+ermC,2868338151,WP_408020673,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,True
+ermC,2863108738,WP_407046942,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,True
+ermC,3044303273,XZA13287,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,False
+ermC,3003485434,XWN40787,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus epidermidis],244,False
+ermC,2859862311,BFT97800,Staphylococcus epidermidis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) (plasmid) [Staphylococcus epidermidis],244,False
+ermC,3353524015,WP_491956466,Bacteria,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Bacteria],244,True
+ermC,3186791115,WP_463273284,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus aureus],244,True
+ermC,1680388329,WP_139062530,Staphylococcus,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus],244,True
+ermC,695262052,WP_032489011,Staphylococcus hominis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus hominis],244,True
+ermC,695262050,WP_032489009,Staphylococcus chromogenes,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus chromogenes],244,True
+ermC,503924496,WP_014158490,Staphylococcus,MULTISPECIES: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus],244,True
+ermC,499701410,WP_011382144,Staphylococcus saprophyticus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus saprophyticus],244,True
+ermC,2884444977,WP_411244731,Staphylococcus hominis,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus hominis],244,True
+ermC,2713336046,WP_340296149,Staphylococcus coagulans,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus coagulans],244,True
+ermC,2986901248,GAB5076853,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus aureus],244,False
+ermC,2907764413,CAM3528127,Staphylococcus aureus,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C) [Staphylococcus aureus],222,False
+fosB,3374406869,WP_500842814,Staphylococcus epidermidis,FosB family fosfomycin resistance bacillithiol transferase [Staphylococcus epidermidis],142,True
+fosB,3357731318,WP_494299447,Staphylococcus epidermidis,FosB family fosfomycin resistance bacillithiol transferase [Staphylococcus epidermidis],142,True
+fosB,3405573185,YHA23755,Staphylococcus epidermidis,bacillithiol transferase BstA [Staphylococcus epidermidis],154,False
+fosB,3346613143,YFF12672,Staphylococcus epidermidis,bacillithiol transferase BstA [Staphylococcus epidermidis],154,False
+fosB,3379874836,YGI97374,Staphylococcus epidermidis,FosB family fosfomycin resistance bacillithiol transferase [Staphylococcus epidermidis],142,False
+fosB,3350430387,YFI14492,Staphylococcus epidermidis,FosB family fosfomycin resistance bacillithiol transferase [Staphylococcus epidermidis],142,False
+fosB,3346636335,YFF10540,Staphylococcus epidermidis,FosB family fosfomycin resistance bacillithiol transferase [Staphylococcus epidermidis],142,False
+fosB,3370731127,WP_498463551,Staphylococcus borealis,YfiT family bacillithiol transferase [Staphylococcus borealis],180,True
+fosB,3363542962,WP_495691666,Staphylococcus pseudintermedius,YfiT family bacillithiol transferase [Staphylococcus pseudintermedius],176,True
+fosB,3380430433,WP_503460586,Staphylococcus sp. K21S22,YfiT family bacillithiol transferase [Staphylococcus sp. K21S22],172,True
+fosB,3400657199,WP_510651578,Staphylococcus xylosus,YfiT family bacillithiol transferase [Staphylococcus xylosus],169,True
+fosB,3355591854,WP_493298088,Staphylococcus succinus,YfiT family bacillithiol transferase [Staphylococcus succinus],169,True
+fosB,3364567453,WP_496243394,Staphylococcus gallinarum,YfiT family bacillithiol transferase [Staphylococcus gallinarum],168,True
+fosB,2554335813,WP_303520299,Staphylococcus pasteuri,bacillithiol transferase BstA [Staphylococcus pasteuri],155,True
+fosB,3362407911,WP_495204347,Staphylococcus aureus,bacillithiol transferase BstA [Staphylococcus aureus],154,True
+fosB,3402089515,WP_511577471,Staphylococcus sp. TMW 2.2799,metallothiol transferase FosB [Staphylococcus sp. TMW 2.2799],141,True
+fosB,3364563736,WP_496240659,Staphylococcus agnetis,metallothiol transferase FosB [Staphylococcus agnetis],139,True
+fosB,3349163029,WP_490680493,Staphylococcus warneri,FosB/FosD family fosfomycin resistance bacillithiol transferase [Staphylococcus warneri],139,True
+fosB,3364013682,YFY64049,Staphylococcus arlettae,bacillithiol transferase BstA [Staphylococcus arlettae],155,False
+fosB,3346483985,YFD98961,Staphylococcus capitis,bacillithiol transferase BstA [Staphylococcus capitis],154,False
+fusB,2866757157,XLH31824,Staphylococcus epidermidis,FusB family fusidic acid resistance EF-G-binding protein [Staphylococcus epidermidis],213,False
+fusB,1979658965,QRJ15680,Staphylococcus epidermidis,FusB family fusidic acid resistance EF-G-binding protein [Staphylococcus epidermidis],213,False
+fusB,1540297863,VEJ61772,Staphylococcus epidermidis,fusidic acid resistance [Staphylococcus epidermidis],213,False
+fusB,358356984,AEU08355,Staphylococcus epidermidis,fusidic acid resistance protein [Staphylococcus epidermidis],213,False
+fusB,1436911027,SUM58304,Staphylococcus microti,fusidic acid resistance [Staphylococcus microti],214,False
+fusB,1767855950,QFR06414,Staphylococcus haemolyticus,FusB family fusidic acid resistance EF-G-binding protein [Staphylococcus haemolyticus],213,False
+fusB,82465338,CAJ43426,Staphylococcus haemolyticus,fusidic acid resistance protein (plasmid) [Staphylococcus haemolyticus],210,False
+fusB,1857954047,CAC6917643,Staphylococcus aureus,fusidic acid resistance [Staphylococcus aureus],151,False
+fusC,2866839326,XLH80084,Staphylococcus epidermidis,FusC family fusidic acid resistance EF-G-binding protein [Staphylococcus epidermidis],212,False
+fusC,1982324260,QRL15983,Staphylococcus epidermidis,FusC family fusidic acid resistance EF-G-binding protein [Staphylococcus epidermidis],212,False
+fusC,1386779544,AWH58244,Staphylococcus hominis subsp. hominis,FusC [Staphylococcus hominis subsp. hominis],212,False
+fusC,1799234166,QHK35052,Staphylococcus aureus,FusC family fusidic acid resistance EF-G-binding protein [Staphylococcus aureus],212,False
+fusC,1346713473,AVG70724,Staphylococcus aureus,fusidic acid resistance protein FusC [Staphylococcus aureus],212,False
+fusC,1478250537,RIL84064,Staphylococcus cohnii,FusC family fusidic acid resistance EF-G-binding protein [Staphylococcus cohnii],212,False
+mphC,2866824368,XLH56109,Staphylococcus epidermidis,Mph(C) family macrolide 2'-phosphotransferase (plasmid) [Staphylococcus epidermidis],299,False
+mphC,1478387170,RIN07077,Staphylococcus shinii,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus shinii],299,False
+mphC,1478383855,RIN04000,Staphylococcus shinii,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus shinii],299,False
+mphC,1375107093,PTI68002,Staphylococcus shinii,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus shinii],299,False
+mphC,1305157067,PKI12485,Staphylococcus shinii,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus shinii],299,False
+mphC,1305153145,PKI09291,Staphylococcus shinii,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus shinii],299,False
+mphC,1910933254,QNZ06587,Staphylococcus aureus,Mph(C) family macrolide 2'-phosphotransferase (plasmid) [Staphylococcus aureus],299,False
+mphC,1908782353,QOB70649,Staphylococcus aureus,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus aureus],299,False
+mphC,1908631951,QOA20420,Staphylococcus aureus,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus aureus],299,False
+mphC,1908406454,QNW64967,Staphylococcus aureus,Mph(C) family macrolide 2'-phosphotransferase (plasmid) [Staphylococcus aureus],299,False
+mphC,1822100364,QIN27754,Staphylococcus chromogenes,Mph(C) family macrolide 2'-phosphotransferase (plasmid) [Staphylococcus chromogenes],299,False
+mphC,1790929606,QHD16491,Staphylococcus equorum,Mph(C) family macrolide 2'-phosphotransferase [Staphylococcus equorum],299,False
+mphC,1760468214,QFM98726,Staphylococcus aureus,Mph(C) family macrolide 2'-phosphotransferase (plasmid) [Staphylococcus aureus],299,False
+mphC,1760386595,QFM17238,Staphylococcus aureus,Mph(C) family macrolide 2'-phosphotransferase (plasmid) [Staphylococcus aureus],299,False
+msrA,3379874928,YGI97466,Staphylococcus epidermidis,ABC-F type ribosomal protection protein Msr(A) [Staphylococcus epidermidis],488,False
+msrA,3346621326,YFF15217,Staphylococcus epidermidis,ABC-F type ribosomal protection protein Msr(A) [Staphylococcus epidermidis],488,False
+msrA,3346614359,YFF13887,Staphylococcus epidermidis,ABC-F type ribosomal protection protein Msr(A) (plasmid) [Staphylococcus epidermidis],488,False
+msrA,3346611991,YFE86860,Staphylococcus epidermidis,ABC-F type ribosomal protection protein Msr(A) (plasmid) [Staphylococcus epidermidis],488,False
+msrA,3383234579,WP_504297543,Staphylococcus warneri,ABC-F type ribosomal protection protein Msr(A) [Staphylococcus warneri],488,True
+msrA,3384699220,YGM83241,Staphylococcus aureus,Abc-F type ribosomal protection protein msr(A) (plasmid) [Staphylococcus aureus],488,False
+msrA,3342587291,YFB13868,Staphylococcus aureus,ABC-F type ribosomal protection protein Msr(A) (plasmid) [Staphylococcus aureus],488,False
+tetK,1799127938,QHJ90668,Staphylococcus epidermidis,tetracycline efflux MFS transporter (plasmid) [Staphylococcus epidermidis],459,False
+tetK,402478064,BAM37190,Staphylococcus aureus PM1,tetracycline resistance protein (plasmid) [Staphylococcus aureus PM1],429,False
+norA,3403391521,WP_512577579,Staphylococcus epidermidis,multidrug efflux MFS transporter NorA [Staphylococcus epidermidis],387,True
+norA,3374431963,WP_500860198,Staphylococcus epidermidis,multidrug efflux MFS transporter NorA [Staphylococcus epidermidis],387,True
+norA,3364566850,WP_496242917,Staphylococcus epidermidis,multidrug efflux MFS transporter NorA [Staphylococcus epidermidis],387,True
+norA,3357731497,WP_494299483,Staphylococcus epidermidis,multidrug efflux MFS transporter NorA [Staphylococcus epidermidis],387,True
+norA,3349159797,WP_490677854,Staphylococcus epidermidis,multidrug efflux MFS transporter NorA [Staphylococcus epidermidis],387,True
+norA,3347595522,WP_490319445,Staphylococcus epidermidis,multidrug efflux MFS transporter NorA [Staphylococcus epidermidis],387,True
+norA,3347594846,WP_490319083,Staphylococcus epidermidis,multidrug efflux MFS transporter NorA [Staphylococcus epidermidis],387,True
+norA,3414425603,WP_520680091,Staphylococcus haemolyticus,multidrug efflux MFS transporter NorA [Staphylococcus haemolyticus],390,True
+norA,3402100455,WP_511587558,Staphylococcus cohnii,multidrug efflux MFS transporter NorA [Staphylococcus cohnii],390,True
+norA,3380429490,WP_503459643,Staphylococcus sp. K21S22,multidrug efflux MFS transporter NorA [Staphylococcus sp. K21S22],389,True
+norA,3403385611,WP_512574692,Staphylococcus aureus,multidrug efflux MFS transporter NorA [Staphylococcus aureus],388,True
+norA,3364550485,WP_496230920,Staphylococcus pseudintermedius,multidrug efflux MFS transporter NorA [Staphylococcus pseudintermedius],388,True
+norA,3356776671,WP_493624524,Staphylococcus kloosii,multidrug efflux MFS transporter NorA [Staphylococcus kloosii],388,True
+norA,2314089196,WP_262609396,Staphylococcus dromedarii,multidrug efflux MFS transporter NorA [Staphylococcus dromedarii],387,True
+norA,3363539750,WP_495689312,Staphylococcus coagulans,multidrug efflux MFS transporter NorA [Staphylococcus coagulans],387,True
+norA,3401567856,WP_511244248,unclassified Staphylococcus,MULTISPECIES: multidrug efflux MFS transporter NorA [unclassified Staphylococcus],386,True
+norA,3402088742,WP_511576698,Staphylococcus sp. TMW 2.2799,multidrug efflux MFS transporter NorA [Staphylococcus sp. TMW 2.2799],385,True
+norA,3364563715,WP_496240638,Staphylococcus agnetis,multidrug efflux MFS transporter NorA [Staphylococcus agnetis],385,True
+norA,3349155253,WP_490674305,Staphylococcus sp. CoH_129_LAB_1,multidrug efflux MFS transporter NorA [Staphylococcus sp. CoH_129_LAB_1],383,True
+norA,3346577770,YFE38250,Staphylococcus warneri,multidrug efflux MFS transporter NorA [Staphylococcus warneri],388,False
+uhpT,3374431850,WP_500860153,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus epidermidis],459,True
+uhpT,3333345821,WP_487038600,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus epidermidis],459,True
+uhpT,3332341017,WP_486799320,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus epidermidis],459,True
+uhpT,3275979063,WP_480975445,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus epidermidis],459,True
+uhpT,3275978328,WP_480974983,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus epidermidis],459,True
+uhpT,3138598892,WP_458554271,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus epidermidis],459,True
+uhpT,3138587229,WP_458545821,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus epidermidis],459,True
+uhpT,3346558180,YFE18382,Staphylococcus epidermidis,hexose-6-phosphate:phosphate antiporter [Staphylococcus epidermidis],459,False
+uhpT,3279770434,WP_482649304,Staphylococcus pseudintermedius,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus pseudintermedius],464,True
+uhpT,3402089492,WP_511577448,Staphylococcus sp. TMW 2.2799,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus sp. TMW 2.2799],461,True
+uhpT,3401568495,WP_511244887,unclassified Staphylococcus,MULTISPECIES: hexose-6-phosphate:phosphate antiporter UhpT [unclassified Staphylococcus],459,True
+uhpT,3370731122,WP_498463546,Staphylococcus borealis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus borealis],459,True
+uhpT,3275994785,WP_480987090,Staphylococcus pettenkoferi,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus pettenkoferi],459,True
+uhpT,3275974875,WP_480972460,Staphylococcus pettenkoferi,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus pettenkoferi],459,True
+uhpT,3158934115,WP_460916515,Staphylococcus argenteus,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus argenteus],459,True
+uhpT,2911587204,WP_415410148,Staphylococcus agnetis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus agnetis],459,True
+uhpT,2881997276,WP_411038693,Staphylococcus coagulans,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus coagulans],459,True
+uhpT,2875043914,WP_410047706,Staphylococcus felis,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus felis],459,True
+uhpT,2867562340,WP_407800330,Staphylococcus aureus,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus aureus],459,True
+uhpT,2840773481,WP_394864023,Staphylococcus delphini,hexose-6-phosphate:phosphate antiporter UhpT [Staphylococcus delphini],459,True
+aae,2519616030,WP_285140126,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],326,True
+aae,3364698069,WP_496330848,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3347595531,WP_490319454,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3328819906,WP_484593113,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3138598885,WP_458554264,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3138595579,WP_458551539,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3123945121,WP_454311122,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3123932147,WP_454302340,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3005992957,WP_434470381,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,2796380168,WP_373111721,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,2581073036,WP_311045984,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,2574701281,WP_308816113,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,2427523459,WP_270525409,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,True
+aae,3045472856,XZD73915,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],326,False
+aae,3044328374,XZA29203,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,False
+aae,2811868860,XHJ06760,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,False
+aae,2505690042,WHI88295,Staphylococcus epidermidis,autolysin/adhesin Aae [Staphylococcus epidermidis],324,False
+aae,2987301069,BGE83448,Staphylococcus petrasii,autolysin/adhesin Aae [Staphylococcus petrasii],340,False
+aae,2722728693,BFL68764,Staphylococcus capitis,autolysin/adhesin Aae [Staphylococcus capitis],333,False
+aae,2722740798,BFL79397,Staphylococcus hominis subsp. novobiosepticus,autolysin/adhesin Aae [Staphylococcus hominis subsp. novobiosepticus],329,False
+aap,3028383715,WP_437219389,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],2541,True
+aap,2130467080,WP_228279880,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],2525,True
+aap,2165684767,WP_232045699,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],2455,True
+aap,3028384729,WP_437219909,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],2433,True
+aap,3328819911,WP_484593118,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],2409,True
+aap,2304540852,WP_260485008,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],2409,True
+aap,3028344780,WP_437184834,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],2397,True
+aap,2520395733,WP_285335572,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],1975,True
+aap,3379358693,WP_503047065,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],1433,True
+aap,3347681572,WP_490363920,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],1371,True
+aap,2668307262,BFF30428,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],1683,False
+aap,663093105,AIF25848,Staphylococcus epidermidis,accumulation-associated protein [Staphylococcus epidermidis],1639,False
+aap,2859861396,BFT96886,Staphylococcus epidermidis,accumulation-associated protein Aap [Staphylococcus epidermidis],1567,False
+aap,7242804,CAB77251,Staphylococcus epidermidis RP62A,accumulation-associated protein [Staphylococcus epidermidis RP62A],1245,False
+aap,1424420570,AXB88919,Staphylococcus epidermidis,accumulation associated protein [Staphylococcus epidermidis],1243,False
+aap,831184993,AKL93117,Staphylococcus capitis subsp. capitis,Accumulation associated protein [Staphylococcus capitis subsp. capitis],1803,False
+aap,3060244319,BGC70045,Staphylococcus aureus,accumulation-associated protein Aap [Staphylococcus aureus],1627,False
+aap,1857528003,CAC6100001,Staphylococcus aureus,accumulation associated protein [Staphylococcus aureus],1454,False
+aap,2639196273,BEV56879,Staphylococcus aureus,accumulation-associated protein Aap [Staphylococcus aureus],1372,False
+aap,3053964447,BGX86731,Staphylococcus aureus,accumulation-associated protein Aap [Staphylococcus aureus],1371,False
+agrB,3388550170,WP_506775722,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3373367656,WP_500270802,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3373367493,WP_500270702,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3349104406,WP_490650183,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3336147588,WP_487795519,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3336137768,WP_487786135,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3335638854,WP_487391601,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3331947627,WP_486559559,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3318629093,WP_483725996,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3260757981,WP_476713253,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3172652717,WP_462087473,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,True
+agrB,3269927648,BHE77579,Staphylococcus aureus,Accessory gene regulator protein B [Staphylococcus aureus],205,False
+agrB,3346678363,YFF31657,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,False
+agrB,3342513340,YFA44871,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,False
+agrB,3342108204,YEZ38255,Staphylococcus aureus,accessory gene regulator AgrB [Staphylococcus aureus],189,False
+agrB,3366542263,CAI6039117,Staphylococcus pseudintermedius,accessory gene regulator protein B [Staphylococcus pseudintermedius],188,False
+agrB,3366529379,CAI6035688,Staphylococcus pseudintermedius,accessory gene regulator protein B [Staphylococcus pseudintermedius],188,False
+agrB,3366522103,CAI6058211,Staphylococcus pseudintermedius,accessory gene regulator protein B [Staphylococcus pseudintermedius],188,False
+agrB,3366488958,CAI6031459,Staphylococcus pseudintermedius,accessory gene regulator protein B [Staphylococcus pseudintermedius],188,False
+agrB,3366486628,CAI6014325,Staphylococcus pseudintermedius,accessory gene regulator protein B [Staphylococcus pseudintermedius],188,False
+agrC,2189903357,WP_237622138,Staphylococcus epidermidis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus epidermidis],429,True
+agrC,3373382979,WP_500273468,Staphylococcus epidermidis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus epidermidis],429,True
+agrC,3379875441,YGI97979,Staphylococcus epidermidis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus epidermidis],429,False
+agrC,3346636993,YFF11198,Staphylococcus epidermidis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus epidermidis],429,False
+agrC,3346613942,YFF13471,Staphylococcus epidermidis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus epidermidis],429,False
+agrC,3346611519,YFE86390,Staphylococcus epidermidis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus epidermidis],429,False
+agrC,3346606671,YFE88680,Staphylococcus epidermidis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus epidermidis],429,False
+agrC,3386135019,WP_505573910,Staphylococcus chromogenes,quorum-sensing sensor histidine kinase AgrC [Staphylococcus chromogenes],432,True
+agrC,3363527316,WP_495678997,Staphylococcus felis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus felis],432,True
+agrC,3380430294,WP_503460447,Staphylococcus sp. K21S22,quorum-sensing sensor histidine kinase AgrC [Staphylococcus sp. K21S22],431,True
+agrC,3349152546,WP_490672046,Staphylococcus equorum,quorum-sensing sensor histidine kinase AgrC [Staphylococcus equorum],431,True
+agrC,3373368728,WP_500271591,Staphylococcus aureus,quorum-sensing sensor histidine kinase AgrC [Staphylococcus aureus],430,True
+agrC,3277801409,WP_481906577,Staphylococcus dromedarii,quorum-sensing sensor histidine kinase AgrC [Staphylococcus dromedarii],430,True
+agrC,3364566413,WP_496242583,Staphylococcus pseudintermedius,quorum-sensing sensor histidine kinase AgrC [Staphylococcus pseudintermedius],430,True
+agrC,3363540775,WP_495690081,Staphylococcus coagulans,quorum-sensing sensor histidine kinase AgrC [Staphylococcus coagulans],430,True
+agrC,3414191427,WP_520483026,Staphylococcus warneri,quorum-sensing sensor histidine kinase AgrC [Staphylococcus warneri],429,True
+agrC,3356778002,WP_493625812,Staphylococcus kloosii,quorum-sensing sensor histidine kinase AgrC [Staphylococcus kloosii],429,True
+agrC,3349445506,WP_490825250,Staphylococcus lugdunensis,quorum-sensing sensor histidine kinase AgrC [Staphylococcus lugdunensis],429,True
+agrC,3383215776,WP_504282179,Staphylococcus haemolyticus,quorum-sensing sensor histidine kinase AgrC [Staphylococcus haemolyticus],427,True
+agrC,3402091283,WP_511579231,Staphylococcus sp. TMW 2.2799,quorum-sensing sensor histidine kinase AgrC [Staphylococcus sp. TMW 2.2799],421,True
+agrD,3379875442,YGI97980,Staphylococcus epidermidis,cyclic lactone autoinducer peptide AgrD [Staphylococcus epidermidis],46,False
+agrD,3346636994,YFF11199,Staphylococcus epidermidis,cyclic lactone autoinducer peptide AgrD [Staphylococcus epidermidis],46,False
+agrD,3346613943,YFF13472,Staphylococcus epidermidis,cyclic lactone autoinducer peptide AgrD [Staphylococcus epidermidis],46,False
+agrD,3346611520,YFE86391,Staphylococcus epidermidis,cyclic lactone autoinducer peptide AgrD [Staphylococcus epidermidis],46,False
+agrD,3379020331,WP_502956812,Staphylococcus aureus,cyclic lactone autoinducer peptide AIP-I precursor [Staphylococcus aureus],47,True
+agrD,3336137710,WP_487786080,Staphylococcus aureus,cyclic lactone autoinducer peptide AIP-II precursor [Staphylococcus aureus],47,True
+agrD,2986309378,WP_430459430,Staphylococcus sp. AS1337,cyclic lactone autoinducer peptide AgrD [Staphylococcus sp. AS1337],46,True
+agrD,516332778,WP_017723435,Staphylococcus shinii,cyclic lactone autoinducer peptide AgrD [Staphylococcus shinii],45,True
+agrD,3401568753,WP_511245145,unclassified Staphylococcus,MULTISPECIES: cyclic lactone autoinducer peptide AgrD [unclassified Staphylococcus],45,True
+agrD,3374435195,WP_500861234,Staphylococcus xylosus,cyclic lactone autoinducer peptide AgrD [Staphylococcus xylosus],45,True
+agrD,2314081981,WP_262603677,Staphylococcus dromedarii,cyclic lactone autoinducer peptide AgrD [Staphylococcus dromedarii],45,True
+agrD,3401573774,WP_511249441,Staphylococcus chromogenes,cyclic lactone autoinducer peptide AgrD [Staphylococcus chromogenes],44,True
+agrD,3401570932,WP_511247182,Staphylococcus sp. TMW 2.2790,cyclic lactone autoinducer peptide AgrD [Staphylococcus sp. TMW 2.2790],44,True
+agrD,3364008762,YFY61587,Staphylococcus haemolyticus,cyclic lactone autoinducer peptide AgrD [Staphylococcus haemolyticus],47,False
+agrD,3346487051,YFE08878,Staphylococcus lugdunensis,cyclic lactone autoinducer peptide AgrD [Staphylococcus lugdunensis],47,False
+agrD,3346581142,YFE46158,Staphylococcus capitis,cyclic lactone autoinducer peptide AgrD [Staphylococcus capitis],46,False
+agrD,3342650646,YFB77642,Staphylococcus aureus,cyclic lactone autoinducer peptide AgrD [Staphylococcus aureus],46,False
+agrD,3332101104,YER92687,Staphylococcus warneri,cyclic lactone autoinducer peptide AgrD [Staphylococcus warneri],46,False
+agrD,3332098854,YER88082,Staphylococcus pettenkoferi,cyclic lactone autoinducer peptide AgrD [Staphylococcus pettenkoferi],46,False
+agrD,3364016755,YFY67121,Staphylococcus gallinarum,cyclic lactone autoinducer peptide AgrD [Staphylococcus gallinarum],45,False
+atlE,57637180,AAW53968,Staphylococcus epidermidis RP62A,bifunctional autolysin [Staphylococcus epidermidis RP62A],1335,False
+atlE,1467490787,BBD95471,Staphylococcus caprae,bifunctional autolysin [Staphylococcus caprae],1395,False
+embp,1450738251,GBV19311,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10624,False
+embp,1451144554,GBZ24327,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10620,False
+embp,1451624812,GBT99430,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10547,False
+embp,1451313786,GBS13900,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10547,False
+embp,1451292789,GBR93324,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10547,False
+embp,1451588970,GBT63745,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10547,False
+embp,1451456835,GBT22565,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10547,False
+embp,1451278913,GBR81680,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],10510,False
+embp,1451271897,GCA42661,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],8886,False
+embp,1451344072,GBS44457,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],6337,False
+embp,1451569572,GBT46149,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],5874,False
+embp,1451071625,GBY52524,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],5485,False
+embp,1451169699,GBZ45918,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],5147,False
+embp,1451274148,GCA45373,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],4991,False
+embp,1451369110,GBS69030,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],4527,False
+embp,1451274146,GCA45371,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],4091,False
+embp,1451607072,GBT81060,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],3438,False
+embp,1451169698,GBZ45917,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],3329,False
+embp,1451543980,GBT38420,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],2867,False
+embp,1451007712,GBX87308,Staphylococcus aureus,extracellular matrix binding protein [Staphylococcus aureus],2839,False
+icaA,3357727063,WP_494296435,Staphylococcus epidermidis,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus epidermidis]",412,True
+icaA,3405572917,YHA23487,Staphylococcus epidermidis,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus epidermidis]",412,False
+icaA,3379874883,YGI97421,Staphylococcus epidermidis,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus epidermidis]",412,False
+icaA,3406020662,WP_514220617,Staphylococcus aureus,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus aureus]",412,True
+icaA,3403389259,WP_512575952,Staphylococcus aureus,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus aureus]",412,True
+icaA,3403373601,WP_512570932,Staphylococcus aureus,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus aureus]",412,True
+icaA,3401565667,WP_511242783,Staphylococcus aureus,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus aureus]",412,True
+icaA,3396553796,WP_509491345,Staphylococcus capitis,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus capitis]",412,True
+icaA,3333342948,WP_487037236,Staphylococcus aureus,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus aureus]",412,True
+icaA,3371910968,WP_499325191,Staphylococcus equorum,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus equorum]",409,True
+icaA,3358947110,WP_494408650,Staphylococcus kloosii,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus kloosii]",409,True
+icaA,3349138022,WP_490663645,Staphylococcus equorum,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus equorum]",409,True
+icaA,3364555553,WP_496235056,Staphylococcus pseudintermedius,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus pseudintermedius]",408,True
+icaA,3349492690,WP_490858622,Staphylococcus lugdunensis,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus lugdunensis]",407,True
+icaA,3327753458,WP_483882759,Staphylococcus lugdunensis,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus lugdunensis]",407,True
+icaA,3355585652,WP_493294335,Staphylococcus aureus,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus aureus]",394,True
+icaA,3346484003,YFD98979,Staphylococcus capitis,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus capitis]",412,False
+icaA,3366486018,CAI6013409,Staphylococcus pseudintermedius,intercellular adhesion protein A [Staphylococcus pseudintermedius],410,False
+icaA,3366500771,CAI6017782,Staphylococcus pseudintermedius,intercellular adhesion protein A [Staphylococcus pseudintermedius],408,False
+icaA,3332099129,YER88357,Staphylococcus pettenkoferi,"poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA [Staphylococcus pettenkoferi]",408,False
+icaB,3405572919,YHA23489,Staphylococcus epidermidis,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus epidermidis],289,False
+icaB,815845811,WP_046467280,Staphylococcus pasteuri,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus pasteuri],292,True
+icaB,3406051690,WP_514247191,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],290,True
+icaB,3406046435,WP_514242606,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],290,True
+icaB,3403390885,WP_512577120,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],290,True
+icaB,3402076970,WP_511570110,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],290,True
+icaB,3403389696,WP_512576214,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],290,True
+icaB,3353958135,WP_492180235,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],290,True
+icaB,3364557773,WP_496236293,Staphylococcus pseudintermedius,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus pseudintermedius],288,True
+icaB,3371910970,WP_499325193,Staphylococcus equorum,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus equorum],286,True
+icaB,3356780392,WP_493627949,Staphylococcus kloosii,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus kloosii],286,True
+icaB,3392321389,WP_508497372,Staphylococcus arlettae,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus arlettae],284,True
+icaB,3364568187,WP_496244128,Staphylococcus gallinarum,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus gallinarum],284,True
+icaB,3340987150,WP_489337823,Staphylococcus cohnii,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus cohnii],284,True
+icaB,950894155,WP_057534300,Bacilli,MULTISPECIES: intercellular adhesin biosynthesis polysaccharide N-deacetylase [Bacilli],283,True
+icaB,3362407165,WP_495203863,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],282,True
+icaB,3336147128,WP_487795078,Staphylococcus aureus,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus aureus],272,True
+icaB,3346580524,YFE45540,Staphylococcus capitis,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus capitis],287,False
+icaB,3346486200,YFE08027,Staphylococcus lugdunensis,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus lugdunensis],287,False
+icaB,3332098124,YER87352,Staphylococcus pettenkoferi,intercellular adhesin biosynthesis polysaccharide N-deacetylase [Staphylococcus pettenkoferi],285,False
+icaC,3374434026,WP_500860588,Staphylococcus epidermidis,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus epidermidis],355,True
+icaC,3373382496,WP_500273065,Staphylococcus epidermidis,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus epidermidis],355,True
+icaC,3357740048,WP_494306290,Staphylococcus epidermidis,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus epidermidis],355,True
+icaC,3405572920,YHA23490,Staphylococcus epidermidis,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus epidermidis],355,False
+icaC,3355562341,WP_493276473,Staphylococcus kloosii,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus kloosii],363,True
+icaC,3356780397,WP_493627954,Staphylococcus kloosii,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus kloosii],361,True
+icaC,1092719366,WP_070648040,Staphylococcus,MULTISPECIES: polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus],357,True
+icaC,1093516226,WP_070862162,Staphylococcus,MULTISPECIES: polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus],357,True
+icaC,815845812,WP_046467281,Staphylococcus pasteuri,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus pasteuri],355,True
+icaC,3363535071,WP_495686083,Staphylococcus pseudintermedius,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus pseudintermedius],352,True
+icaC,3371911012,WP_499325235,Staphylococcus equorum,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus equorum],351,True
+icaC,3414334687,WP_520590716,Staphylococcus argenteus,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus argenteus],350,True
+icaC,3402079204,WP_511571165,Staphylococcus aureus,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus aureus],350,True
+icaC,3336162865,WP_487808962,Staphylococcus aureus,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus aureus],350,True
+icaC,1719010706,WP_145371492,Staphylococcus ureilyticus,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus ureilyticus],346,True
+icaC,3336147127,WP_487795077,Staphylococcus aureus,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus aureus],335,True
+icaC,3366531107,CAI6018687,Staphylococcus pseudintermedius,intercellular adhesion protein C [Staphylococcus pseudintermedius],635,False
+icaC,3364017311,YFY67674,Staphylococcus gallinarum,polysaccharide intercellular adhesin biosynthesis/export protein IcaC (plasmid) [Staphylococcus gallinarum],350,False
+icaC,3332098123,YER87351,Staphylococcus pettenkoferi,polysaccharide intercellular adhesin biosynthesis/export protein IcaC [Staphylococcus pettenkoferi],350,False
+icaC,3366483561,CAI5709315,Staphylococcus pseudintermedius,intercellular adhesion protein C [Staphylococcus pseudintermedius],334,False
+sarA,3405573394,YHA23964,Staphylococcus epidermidis,global transcriptional regulator SarA [Staphylococcus epidermidis],124,False
+sarA,3346635936,YFF10141,Staphylococcus epidermidis,global transcriptional regulator SarA [Staphylococcus epidermidis],124,False
+sarA,3416172762,WP_522035507,Staphylococcus borealis,global transcriptional regulator SarA [Staphylococcus borealis],124,True
+sarA,3400819414,WP_510773148,Staphylococcus aureus,global transcriptional regulator SarA [Staphylococcus aureus],124,True
+sarA,3395089429,WP_509142110,Staphylococcus aureus,global transcriptional regulator SarA [Staphylococcus aureus],124,True
+sarA,3379019146,WP_502956330,Staphylococcus aureus,global transcriptional regulator SarA [Staphylococcus aureus],124,True
+sarA,3349154897,WP_490673949,Staphylococcus sp. CoH_129_LAB_1,global transcriptional regulator SarA [Staphylococcus sp. CoH_129_LAB_1],124,True
+sarA,3335639212,WP_487391959,Staphylococcus aureus,global transcriptional regulator SarA [Staphylococcus aureus],124,True
+sarA,3401569028,WP_511245420,unclassified Staphylococcus,MULTISPECIES: global transcriptional regulator SarA [unclassified Staphylococcus],123,True
+sarA,2314082725,WP_262604421,Staphylococcus dromedarii,global transcriptional regulator SarA [Staphylococcus dromedarii],123,True
+sarA,3402088820,WP_511576776,Staphylococcus sp. TMW 2.2799,global transcriptional regulator SarA [Staphylococcus sp. TMW 2.2799],122,True
+sarA,3356785775,WP_493631614,Staphylococcus lugdunensis,global transcriptional regulator SarA [Staphylococcus lugdunensis],122,True
+sarA,3347593982,WP_490318647,Staphylococcus lugdunensis,global transcriptional regulator SarA [Staphylococcus lugdunensis],122,True
+sarA,3364015475,YFY65841,Staphylococcus gallinarum,global transcriptional regulator SarA [Staphylococcus gallinarum],124,False
+sarA,3364012466,YFY62833,Staphylococcus arlettae,global transcriptional regulator SarA [Staphylococcus arlettae],124,False
+sarA,3364007568,YFY60393,Staphylococcus haemolyticus,global transcriptional regulator SarA [Staphylococcus haemolyticus],124,False
+sarA,3346577848,YFE38328,Staphylococcus warneri,global transcriptional regulator SarA [Staphylococcus warneri],124,False
+sarA,3346483604,YFD98580,Staphylococcus capitis,global transcriptional regulator SarA [Staphylococcus capitis],124,False
+sarA,3333472116,YEU77238,Staphylococcus hominis,global transcriptional regulator SarA [Staphylococcus hominis],124,False
+sarA,3366543652,CAI6074146,Staphylococcus pseudintermedius,staphylococcal accessory regulator A [Staphylococcus pseudintermedius],123,False
+sdrF,3191484198,WP_463606168,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1884,True
+sdrF,3123934075,WP_454303686,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1804,True
+sdrF,3367827385,WP_497124410,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1796,True
+sdrF,2974415218,WP_425852819,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1784,True
+sdrF,3138589916,WP_458547509,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1771,True
+sdrF,3138600110,WP_458554815,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1769,True
+sdrF,3138589070,WP_458546947,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1765,True
+sdrF,3196914771,WP_463680202,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1739,True
+sdrF,3138593096,WP_458550276,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1711,True
+sdrF,3260426388,WP_476662976,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1555,True
+sdrF,3113363612,WP_449128574,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1503,True
+sdrF,3403391214,WP_512577381,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1487,True
+sdrF,3123932590,WP_454302642,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1401,True
+sdrF,3044648956,WP_441001720,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1393,True
+sdrF,3260426781,WP_476663275,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1391,True
+sdrF,3374433674,WP_500860512,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1375,True
+sdrF,3357731827,WP_494299595,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1309,True
+sdrF,3367791864,WP_497113165,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1299,True
+sdrF,3170379723,YCS78598,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1519,False
+sdrF,2935315772,CAM3571630,Staphylococcus epidermidis,MSCRAMM family adhesin SdrF [Staphylococcus epidermidis],1263,False
+sdrG,2460848465,WP_275792925,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1058,True
+sdrG,3145217767,WP_459446423,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1054,True
+sdrG,3141091819,WP_459127214,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1052,True
+sdrG,3113361523,WP_449126645,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1052,True
+sdrG,2581095936,WP_311057426,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1050,True
+sdrG,2713199626,WP_340179993,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1048,True
+sdrG,3138588307,WP_458546520,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1046,True
+sdrG,3188418840,WP_463407822,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1036,True
+sdrG,2639218706,WP_322763591,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1032,True
+sdrG,3373381456,WP_500272301,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1024,True
+sdrG,3123933536,WP_454303361,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1014,True
+sdrG,2820041434,WP_381403311,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1010,True
+sdrG,2958305015,WP_423830510,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],938,True
+sdrG,2668304894,BFF28064,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],1077,False
+sdrG,3346614342,YFF13871,Staphylococcus epidermidis,MSCRAMM family adhesin SdrG [Staphylococcus epidermidis],954,False
+sdrG,3366502282,CAI6056543,Staphylococcus pseudintermedius,fibrinogen-binding adhesin [Staphylococcus pseudintermedius],1108,False
+sdrG,3366524945,CAI6064575,Staphylococcus pseudintermedius,fibrinogen-binding adhesin [Staphylococcus pseudintermedius],1030,False
+sdrG,3366533777,CAI6020176,Staphylococcus pseudintermedius,fibrinogen-binding adhesin [Staphylococcus pseudintermedius],1021,False
+sdrG,2907736231,CAM2790220,Staphylococcus schleiferi subsp. schleiferi,fibrinogen-binding adhesin SdrG C-terminal domain-containing protein [Staphylococcus schleiferi subsp. schleiferi],1005,False
+sdrG,2907766419,CAM3318935,Staphylococcus aureus,fibrinogen-binding adhesin SdrG C-terminal domain-containing protein [Staphylococcus aureus],738,False
+sdrH,3275979313,WP_480975549,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],508,True
+sdrH,3002843587,WP_433912087,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],499,True
+sdrH,2911580750,WP_415404519,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],499,True
+sdrH,2783305465,WP_369041297,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],499,True
+sdrH,3044649105,WP_441001864,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],493,True
+sdrH,3123932592,WP_454302644,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],492,True
+sdrH,2741105876,WP_349225102,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],491,True
+sdrH,2924246016,WP_418356610,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],480,True
+sdrH,3028350245,WP_437190269,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],470,True
+sdrH,3044649018,WP_441001782,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],465,True
+sdrH,3182063903,WP_462811047,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],456,True
+sdrH,3173349913,WP_462131166,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],456,True
+sdrH,2780273827,WP_368470829,Staphylococcus epidermidis,MSCRAMM-like protein SdrH [Staphylococcus epidermidis],440,True
+sdrH,2907697502,CAM3174002,Staphylococcus argensis,SdrH family protein [Staphylococcus argensis],790,False
+sdrH,3317404778,CAQ0326561,Staphylococcus nepalensis,SdrH protein [Staphylococcus nepalensis],670,False
+sdrH,2910024825,CAM4055568,Staphylococcus xylosus,SdrH family protein [Staphylococcus xylosus],590,False
+sdrH,2907736589,CAM2758859,Staphylococcus schleiferi subsp. schleiferi,SdrH family protein [Staphylococcus schleiferi subsp. schleiferi],502,False
+sdrH,1450735746,GBV21599,Staphylococcus aureus,ser-Asp rich fibrinogen/bone sialoprotein-binding protein SdrH [Staphylococcus aureus],415,False
+sdrH,2910019531,CAM4265167,Staphylococcus aureus,SdrH family protein [Staphylococcus aureus],395,False
+sdrH,2907756824,CAM3135792,Staphylococcus aureus,SdrH family protein [Staphylococcus aureus],394,False
+essD,3269925903,BHE75834,Staphylococcus aureus,Type VII secretion systems protein EssD [Staphylococcus aureus],617,False
+essD,2711778758,WYW05200,Staphylococcus aureus,Type VII secretion systems protein EssD [Staphylococcus aureus],617,False
+essD,1450737732,GBV19488,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,2704385271,GAA5455806,Staphylococcus aureus,type VII secretion systems protein EssD [Staphylococcus aureus],617,False
+essD,2704383480,GAA5596760,Staphylococcus aureus,type VII secretion systems protein EssD [Staphylococcus aureus],617,False
+essD,2704380542,GAA5708439,Staphylococcus aureus,type VII secretion systems protein EssD [Staphylococcus aureus],617,False
+essD,2704369752,GAA5468426,Staphylococcus aureus,type VII secretion systems protein EssD [Staphylococcus aureus],617,False
+essD,1451413032,GBT13392,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1451234854,GCA06729,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1451210237,GBZ85467,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1451207857,GBZ81850,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1451136836,GBZ16343,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1451127119,GBZ04791,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1451077163,GBY57416,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1450850325,GBW33081,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],617,False
+essD,1451279611,GBR80545,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],614,False
+essD,1451097300,GBY78056,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],614,False
+essD,1450962121,GBX43086,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],614,False
+essD,1450827916,GBW09683,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],614,False
+essD,1450666245,GBU48617,Staphylococcus aureus,ESAT-6 secretion machinery protein EssD [Staphylococcus aureus],614,False
+sesI,57638194,AAW54982,Staphylococcus epidermidis RP62A,cell wall surface anchor family protein [Staphylococcus epidermidis RP62A phage SP-beta],201,False
+opp3D,,ASM79718.1,,user-supplied reference,255,False
+opp3E,,ASM79719.1,,user-supplied reference,211,False
+agrB,,MGX0377576.1,,user-supplied reference,196,False
+sdrF,,KPH57863.1,,user-supplied reference,783,False

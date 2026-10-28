@@ -55,6 +55,33 @@ aws batch submit-job \
       "--verify_nr","true"]}'
 ```
 
+### Reproducible runs: freeze the reference panel
+
+By default each run rebuilds the panel from a genus-wide NCBI query, and that
+query drifts. Between two runs three weeks apart, **16 of 55 panels drew
+different references** (`fdh` swapped 7 of 20, `aap` 5, `kdpB` 4) and **13
+calls moved for that reason alone**, with no code change behind any of them.
+Re-running is therefore not a way to confirm a result — without a frozen panel
+it produces a new one that needs its own audit.
+
+To make a run reproducible, freeze the panel once and point later runs at it:
+
+```bash
+tools/freeze_panel.sh results-29genomes_v5 panels/v5     # once
+nextflow run main.nf -profile local --panel_dir panels/v5 ...
+```
+
+Every gene with a `<gene>.fasta` in that directory is built from the file and
+**nothing is fetched from NCBI**; the rebuild is byte-identical to the run it
+was frozen from, manifest included. Genes *not* in the directory fall through
+to the normal query, so adding a gene to `genes.txt` without adding it to the
+panel silently reintroduces drift for that gene — the build log prints
+`FROZEN panel` for each gene served from file, so check the count matches.
+
+`panels/v5/` is the panel behind the 29-genome v5 results (55 genes, 903
+references). Leave `--panel_dir` unset when you *want* to pick up new alleles,
+and re-freeze afterwards.
+
 ### Seedfile format
 
 ```csv
@@ -83,7 +110,7 @@ Rows with a blank `sampleName` or a leading `#` are skipped.
 | `--evalue` | `1e-5` | blastx evalue for the screen |
 | `--identity_min` | `90.0` | passed to `call_genes.py` |
 | `--coverage_min` | `80.0` | passed to `call_genes.py` |
-| `--gap` | `5000` | genomic clustering gap (bp) |
+| `--gap` | `2000` | genomic clustering gap (bp) — see below |
 | `--verify_nr` | `false` | run the nr round |
 | `--nr_db` | `/mnt/efs/databases/Blast/nr/db/nr` | nr db **prefix**; empty = NCBI remote |
 | `--flank` | `300` | bp of flank per extracted locus |
@@ -167,7 +194,58 @@ the table.
 | 12 | `nr_coverage_basis` | 2 | `subject` or `query_locus+flank` |
 | 13 | `nr_hit_rank` | 2 | that hit's rank in the nr output |
 | 14 | `nr_verification` | 2 | human-readable verdict + any notes |
-| 15 | `final_call` | 2 | `present` / `flagged` |
+| 15 | `frame_status` | 1 | empty, or `frameshift:Nframes` — the called region is not one ORF |
+| 16 | `frameshift_at` | 1 | genomic coordinate(s) of the junction(s) |
+| 17 | `final_call` | 2 | `present` / `present_frameshift` / `absent` / `unverifiable_short` / `flagged` / `no_reference` |
+
+### `present_frameshift`: sequence verified, reading frame not
+
+Round 1 measures sequence similarity; round 2 asks what protein that sequence
+resembles. **Neither looks at the reading frame**, so both can be fully
+satisfied by a pseudogene. `blastx` translates the query in six frames and
+reports HSPs from any of them, and `call_genes.py` clusters by genomic distance
+without checking frame.
+
+On LM088-RCB001, `ebh`/`embp` scores 99.6% identity to an *S. epidermidis*
+Ebh-like protein across 30,469 bp — and is interrupted by two frameshifts:
+
+```
+frame +0   1,365,187-1,382,946   17,760 bp
+frame +2   1,382,916-1,392,902    9,987 bp
+frame +1   1,392,833-1,395,655    2,823 bp
+```
+
+Two signals are required before reporting this, and the second is what matters:
+
+1. the frames occupy **separate stretches** of the locus, so it is not one ORF;
+2. their junctions **overlap** rather than gap.
+
+At a frameshift, references align across the break in either frame, so HSPs
+from both frames cover the same bases. **Adjacent genes give disjoint blocks**
+instead — `SCCmec`'s two blocks sit 1 bp apart (they are blaR1 and blaI, which
+is why that locus was never SCCmec) and `opp3D`'s 86 bp apart (two neighbouring
+ABC transporters). Only overlapping junctions are reported. Interleaved frames
+are ignored entirely: repeat proteins routinely produce alternative alignments
+of the same region in several frames, which says nothing about the gene's frame.
+
+The call scores **0** in the matrix. The matrix answers "does this genome make
+this protein", and a locus interrupted by frameshifts does not. The
+sequence-level finding is not lost — the row keeps
+`final_call = present_frameshift` and the junction coordinates in
+`frameshift_at`, so a sequence-level question is still answerable from
+`gene_presence_table_v2.csv`. Scoring it 1 would place a probable pseudogene in
+a presence figure as an ordinary positive, which is the harder error to catch
+downstream.
+
+**What it cannot tell you:** whether the frameshifts are a real pseudogene or
+residual assembly indels. Long-read assemblies polished with short reads
+(`polypolish`) retain exactly this error class, concentrated in long repeat
+arrays. Tempting but invalid reasoning: "every other repeat protein in the
+genome is single-frame, so this must be real." At one frameshift per ~15 kb,
+the next-longest target (`aap`, 4,143 bp) would be expected to carry 0.27 — so
+zero there is entirely consistent with the same length-proportional error rate.
+Only read-level evidence at the two junction coordinates settles it, and the
+check reduces that from a 30 kb region to two positions.
 
 Three things that are easy to misread:
 
@@ -229,10 +307,28 @@ LM088	agrB	1
 ...
 ```
 
-Only `final_call == present` scores **1**. A `flagged` gene is **0**, because
-flagged means *not verified* — scoring an unverified gene as present is how a
-false positive reaches a figure. The reason behind any 0 is in
-`gene_presence_table_v2.csv`.
+Only `final_call == present` scores **1**; everything else is **0**. The reason
+behind any 0 is in `gene_presence_table_v2.csv`, and the four values are not
+interchangeable:
+
+| `final_call` | Meaning | Confidence in the 0 |
+|---|---|---|
+| `present` | verified against nr, **or** too short for nr to assess with a round-1 call of present | — (scores 1) |
+| `present_frameshift` | sequence verified; locus spans multiple reading frames | **scores 0** — gene present, functional protein not supported |
+| `absent` | searched against a valid panel, nothing qualified, **or** round 1 was `homology_only` and round 2 agreed | **high** — a completed negative |
+| `unverifiable_short` | too short for nr to assess, and round 1 did **not** say present | **none** — no positive evidence either way |
+| `flagged` | a locus was called but could not be verified | **none** — needs review |
+| `no_reference` | no panel was built; untested | **none** — neither present nor absent |
+
+`flagged` is 0 because *not verified* must never score as present — that is how
+a false positive reaches a figure. But do not read it as evidence of absence:
+`mecA` on LM088-RCB001 was `flagged` because its locus turned out to be a
+native PBP, whereas `icaD` was `absent` because the gene is not in the genome.
+Only the second is a result you can publish; the first is a to-do item.
+
+`absent` is strongest on a closed assembly, where there is no gap for a gene to
+hide in. On a draft assembly every `absent` silently carries "or it fell in a
+gap between contigs".
 
 Long rather than wide so files from separate genomes concatenate directly;
 pivot when a wide table is wanted:
@@ -368,10 +464,65 @@ is intact. For typing, look at which *mec* and *ccr* proteins hit in
 
  gene_calls is decided by 3 parameters `--identity-min`, `--coverage-min`, `--gap` in `call_genes.py`.
 
+**`--gap` affects coordinates, not calls.** It was lowered from 5000 to 2000.
+At 5000 the `aap` cluster on LM088-RCB001 absorbed a detached 516 bp block of
+G5/E repeats lying 3,847 bp away, reporting the locus as 33856-42361 (8,506 bp)
+for a gene that is 38219-42361 (4,143 bp) — a 4.4 kb overstatement, with round-1
+coverage inflated to 85.7% from 81.2%. At 2000 the coordinates match nr's
+confirming hit exactly, which is independent corroboration rather than a tuned
+guess.
+
+Validated across two panels and 56 gene-calls: `aap`'s coordinates are the only
+thing that changes, and **no call changes anywhere**. The 30,529 bp `ebh`/`embp`
+gene — the obvious casualty of a tighter gap — is unaffected at every value
+tested down to 500.
+
+Do not go below ~1400. At 1000 the `aap` gene splits at its own internal 1,341
+bp gap and loses a block. The safe window is wider than the largest *internal*
+unaligned stretch of a gene and narrower than the distance to the nearest
+unrelated element. Repeat proteins set both bounds, because their references
+match in patches.
+
 - **present** — ≥90% protein identity over ≥80% of the reference length
 - **divergent** — full coverage but <90% identity (likely genuine ortholog; check the locus)
 - **partial** — <80% coverage (fragment, truncation, or cross-homology)
+- **homology_only** — <`--homology-max` identity (default 40%). Checked *first*,
+  so it takes precedence over divergent/partial.
 - **absent** — no hit at e-value ≤ 1e-5
+
+### Why `homology_only` exists
+
+`divergent` was conflating two unrelated situations. On LM088-RCB001 it gave the
+same label to `arcB` at 83.1% — a real cross-species orthologue — and to `tetK`
+at 24.9%, which is fold-level similarity to a native MFS efflux pump. Read
+without the identity column, that table suggests eight divergent resistance
+genes where there are none.
+
+Below the threshold the hit is to a different member of the same **superfamily**,
+not an allele of the gene:
+
+| gene | id% | what it actually matched |
+|---|---|---|
+| `ermA`/`ermB`/`ermC` | 24–27 | one native rRNA methyltransferase, same locus for all three |
+| `msrA` | 26.4 | a native ABC-F protein (the resistance Msr(A) is 488 aa; the housekeeping MsrA is ~170 aa) |
+| `tetK` | 24.9 | a native MFS pump |
+| `opp3D`/`opp3E` | 28–30 | unrelated ABC transporters, 435 kb and 161 kb from the opp3 cluster |
+| `kdpB`/`kdpE` | 26–34 | the P-type ATPase and OmpR response-regulator superfamilies |
+| `dfrG` | 39.5 | the native trimethoprim-**sensitive** DfrC, at the same coordinates |
+
+For scale, a genuine copy matches these same panels at ~100%: `opp3B` scored
+100.0% over 308/308 aa.
+
+**40% is a judgement call, not a natural boundary.** `embp` at 42.2% is a real
+*S. aureus*/*S. epidermidis* orthologue (nr-confirmed at 99.6%) and `dfrG` at
+39.5% is background — 2.7 points apart. Raise the threshold and real orthologues
+get mislabelled; lower it and background leaks back in. Round 2 remains the
+arbiter: it independently rejected `mecA` and `msrA`. Set `--homology_max 0` to
+disable.
+
+When round 1 says `homology_only` **and** round 2 finds no overlapping nr hit
+naming the gene, `final_call` is `absent`, not `flagged` — two independent lines
+of evidence agreeing. `flagged` stays reserved for the genuinely unresolved.
 
 ## Validation from round 2
 
@@ -385,8 +536,27 @@ final_call is decided by three tests in finalize_calls.py:
 |2	|hit title matches the gene's accept pattern and not reject	|pattern match, not numeric
 |3	|that hit's bitscore ≥ fraction of the top overlapping hit's	|--min-bitscore-frac, default 0.80 (relative, not absolute)
 
-- **present** - Pass all three 
-- **flagged**  - Otherwise
+- **present** - Pass all three
+- **flagged**  - A locus WAS called but fails one of the three
+- **absent** - Either (a) round 1 found no locus, so there was nothing for round
+  2 to verify — round 2 only asks whether an nr hit overlaps the called region,
+  and with no region nothing can overlap, so reporting that as `flagged` would
+  imply a verification was attempted; or (b) round 1 called `homology_only` and
+  round 2 found no overlapping nr hit naming the gene, which is two independent
+  lines of evidence agreeing on absence. Note that (b) can be *overturned*: a
+  confirming nr hit still wins, so `homology_only` in round 1 does not
+  pre-empt round 2.
+- **no_reference** - No panel was built for the gene (NCBI returned nothing, or
+  `PRODUCT_FILTERS` rejected every record). Untested, so neither present nor
+  absent.
+
+Note the asymmetry: round 2 can only ever *confirm* presence, never establish
+absence. Every `absent` call is round 1's verdict, resting on the panel holding
+the right protein at the right length — which is why `PRODUCT_FILTERS` and the
+length floors matter as much as the thresholds do. A `mecA` panel full of the
+~240 aa ClpC adaptor instead of the ~668 aa PBP2a produced a confident
+`present` on a methicillin-sensitive genome, and no amount of round-2 logic
+would have caught it if the title had been less obviously wrong.
 
 
 ## Notes in nr_top_hits.tsv

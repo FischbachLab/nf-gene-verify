@@ -1,0 +1,123 @@
+# Priority test genes
+aacA
+blaZ
+mecA
+SCCmec
+agrA
+bhp
+icaD
+icaR
+IS256
+fdh
+# S. epidermidis panel 3: acquired resistance + adhesins/biofilm + secretion
+#
+# Cleaned from genes_3.txt.bak. Changes and the reason for each:
+#
+#   drfC -> dfrC          typo (sat next to dfrG)
+#   erm(A) -> ermA        parentheses are Entrez GROUPING operators, so the
+#   erm(B) -> ermB        parenthesised form is not queried literally, and the
+#   erm(C) -> ermC        token also reaches the filesystem as <gene>.fasta and
+#   mph(C) -> mphC        <gene>_locus.fasta. The official names are preserved
+#   msr(A) -> msrA        as query terms via ALIASES in build_protein_db.py,
+#                         so retrieval is unchanged.
+#   trailing spaces       stripped from 6 lines; they survived mapfile and
+#                         produced filenames like 'erm(A) .fasta'
+#   fbe                   REMOVED as a duplicate: Fbe (fibrinogen-binding
+#                         protein) IS SdrG. Keeping both produced two panels
+#                         and two rows for one locus. sdrG retained.
+#   ACME types I-VI       REMOVED; see the ACME note below.
+#
+# ── ACME ───────────────────────────────────────────────────────────────────
+# The arginine catabolic mobile element is a composite element, not a gene, and
+# is typed by gene CONTENT: type I = arc cluster + opp3 cluster, type II = arc
+# only, type III = opp3 only. 'ACME types I' as a gene-name query returns
+# nothing.
+#
+# The arc genes below are listed but MUST NOT be read as ACME presence on their
+# own: staphylococci carry a NATIVE chromosomal arc operon, so arcA-D will hit
+# in an ACME-negative genome. This is the same trap as mecA/ClpC-adaptor --
+# a resistance/mobile-element marker whose housekeeping homologue is universal.
+# opp3A-E are the more ACME-specific half.
+#
+# Calling ACME properly needs the predefined-FASTA route used for SCCmec plus
+# component-wise logic (>=1 arc AND/OR >=1 opp3, co-located near orfX). Until
+# that exists, treat any arc/opp3 result as inconclusive and check the
+# coordinates against the SCC/orfX region by hand.
+# Types I-III are the 2009 PCR-scan scheme, IV-V were described in 2018:
+#   I = arc + opp3 | II = arc only | III = opp3 only
+#   IV = kdp, no opp3 | V = kdp + arc + opp3
+# There is no type VI in the literature I can find -- check your source.
+#
+# kdp is listed because types IV and V cannot be detected without it. Like arc,
+# the kdp operon is ALSO native in staphylococci, so neither cluster is ACME
+# evidence on its own. Characterised ACMEs are 31-34 kb, which is the
+# co-location window bin/acme_type.py uses.
+arcA
+arcB
+arcC
+arcD
+argR
+opp3A
+opp3B
+opp3C
+opp3D
+opp3E
+kdpA
+kdpB
+kdpC
+kdpD
+kdpE
+
+# ── acquired resistance ────────────────────────────────────────────────────
+# ermA/ermB/ermC are 23S rRNA methylases ~60-80% identical TO EACH OTHER, and
+# fusB/fusC ~45%, and dfrG/dfrC likewise: each group needs mutual deny patterns
+# before its calls can be trusted. dfr* additionally shares titles with the
+# native chromosomal dihydrofolate reductase (folA/dfrB) present in every
+# genome -- structurally the mecA trap again.
+aadD
+dfrC
+dfrG
+ermA
+ermB
+ermC
+fosB
+fusB
+fusC
+mphC
+msrA
+tetK
+
+# ── presence/absence is the WRONG ASSAY for these two ───────────────────────
+# Retained so you get the data, but a 'present' call carries no resistance
+# information:
+#   norA  fluoroquinolone efflux; resistance comes from OVEREXPRESSION
+#         (promoter/regulator mutations). The gene is near-universal.
+#   uhpT  fosfomycin resistance comes from LOSS of function. Present = the
+#         wild-type, i.e. the susceptible state.
+# Both need variant/expression analysis, not a presence screen.
+norA
+uhpT
+
+# ── adhesins, biofilm, secretion ───────────────────────────────────────────
+# WARNING: aae, aap, atlE, embp, sdrF, sdrG, sdrH and sesI all carry shared
+# B-repeat / LysM-type domains. blastx_seg is set to 'no' (needed to stop SEG
+# masking truncating sdrH), which makes paralogous repeat matching MORE likely.
+# After the run, check whether any of these call overlapping coordinates --
+# identical or nested loci across different adhesins is the signature of
+# cross-matching, which is exactly how bhp misbehaved on LM088-RCB001.
+aae
+aap
+agrB
+agrC
+agrD
+atlE
+embp
+icaA
+icaB
+icaC
+sarA
+sdrF
+sdrG
+sdrH
+essD
+sesI

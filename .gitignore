@@ -1,0 +1,11 @@
+.nextflow*
+work/
+results/
+test-results/
+__pycache__/
+*.pyc
+.DS_Store
+genes_3.txt.bak
+genes_2.txt
+genes_3.txt
+genes.txt
