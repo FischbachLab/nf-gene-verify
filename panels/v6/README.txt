@@ -1,6 +1,6 @@
 Frozen nf-gene-verify reference panel
-  source : /sessions/eager-magical-brahmagupta/mnt/Downloads/results-29genomes_v5
-  frozen : 2026-10-28T22:26:01Z
+  source : /sessions/eager-magical-brahmagupta/mnt/Downloads/results-29genomes_v6
+  frozen : 2026-10-29T18:39:04Z
   genes  : 55
 
 Use with:

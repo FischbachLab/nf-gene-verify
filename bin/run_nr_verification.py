@@ -378,7 +378,7 @@ def main():
     if rows:
         with open(tsv, "w", newline="") as fh:
             w = csv.DictWriter(fh, fieldnames=TOP_HIT_COLUMNS, delimiter="\t",
-                               extrasaction="ignore")
+                               extrasaction="ignore", lineterminator="\n")
             w.writeheader()
             w.writerows(rows)
         print(f"parsed {len(rows)} hits -> {tsv}")

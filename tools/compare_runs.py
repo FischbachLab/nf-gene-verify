@@ -231,7 +231,7 @@ def main():
     # csv
     if args.csv:
         with open(args.csv, "w", newline="") as fh:
-            w = csv.writer(fh)
+            w = csv.writer(fh, lineterminator="\n")
             w.writerow(["sample", "gene", "old_call", "new_call",
                         "old_r1_id", "new_r1_id", "old_r1_cov", "new_r1_cov",
                         "old_nr_id", "new_nr_id", "old_nr_cov", "new_nr_cov",

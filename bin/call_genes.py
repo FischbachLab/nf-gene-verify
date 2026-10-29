@@ -510,7 +510,8 @@ def main():
         })
 
     with open(args.out, "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()), delimiter="\t")
+        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()), delimiter="\t",
+                           lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
 

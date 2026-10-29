@@ -1050,7 +1050,15 @@ def main():
         })
 
     with open(args.out, "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
+        # lineterminator="\n", not csv's default "\r\n". Every table this
+        # pipeline writes was CRLF, which Python and R read transparently but
+        # which glues a trailing \r onto the LAST column for anything
+        # line-oriented: `awk -F'\t' '$17=="present"'` matched nothing, because
+        # the value was "present\r". The last column here is final_call, so the
+        # one field most likely to be filtered from a shell was the one that
+        # silently failed. Applied to every writer in bin/ and tools/.
+        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()),
+                           lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
 

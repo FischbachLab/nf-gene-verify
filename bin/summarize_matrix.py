@@ -84,7 +84,7 @@ def main():
     wide = os.path.join(outdir, "gene_presence_matrix_wide.tsv")
     n_missing = 0
     with open(wide, "w", newline="") as fh:
-        w = csv.writer(fh, delimiter="\t")
+        w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         w.writerow(["sample"] + genes)
         for s in samples:
             row = []
@@ -110,7 +110,7 @@ def main():
 
     pfile = os.path.join(outdir, "gene_prevalence.tsv")
     with open(pfile, "w", newline="") as fh:
-        w = csv.writer(fh, delimiter="\t")
+        w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         w.writerow(["gene", "n_genomes", "pct"])
         for g in sorted(genes, key=lambda x: (-prev[x], x)):
             w.writerow([g, prev[g], f"{100 * prev[g] / n:.0f}"])
@@ -118,7 +118,7 @@ def main():
     gfile = os.path.join(outdir, "genes_per_genome.tsv")
     per = {s: sum(1 for g in genes if val.get((s, g)) == "1") for s in samples}
     with open(gfile, "w", newline="") as fh:
-        w = csv.writer(fh, delimiter="\t")
+        w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         w.writerow(["sample", "n_genes"])
         for s in sorted(samples, key=lambda x: (-per[x], x)):
             w.writerow([s, per[s]])

@@ -252,7 +252,7 @@ def main():
     out = args.out or os.path.join(os.path.dirname(os.path.abspath(args.calls)),
                                    "acme_type.tsv")
     with open(out, "w", newline="") as fh:
-        w = csv.writer(fh, delimiter="\t")
+        w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         w.writerow(["acme_type", "basis", "window_bp"])
         w.writerow([verdict, confidence, args.window])
         w.writerow([])

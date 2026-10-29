@@ -1462,7 +1462,8 @@ def main():
 
     if manifest_rows:
         with open(os.path.join(args.out, "manifest.csv"), "w", newline="") as fh:
-            w = csv.DictWriter(fh, fieldnames=list(manifest_rows[0].keys()))
+            w = csv.DictWriter(fh, fieldnames=list(manifest_rows[0].keys()),
+                               lineterminator="\n")
             w.writeheader()
             w.writerows(manifest_rows)
     print(f"Total manifest rows: {len(manifest_rows)} -> {args.out}/manifest.csv")
