@@ -1,0 +1,19 @@
+{
+  "platform": "linux-64",
+  "virtual_glibc": "2.28",
+  "virtual_linux": "5.15",
+  "success": true,
+  "packages": 342,
+  "download_bytes": 1480597241,
+  "main_versions": {
+    "mafft": "7.525",
+    "iqtree": "2.4.0",
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "biopython": "1.85",
+    "prokka": "1.15.6",
+    "mlst": "2.35.0",
+    "matplotlib-base": "3.8.4",
+    "panaroo": "1.8.0"
+  }
+}

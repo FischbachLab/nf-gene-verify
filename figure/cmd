@@ -1,0 +1,19 @@
+bash run_ec2.sh \
+  --genomes-dir /mnt/efs/scratch/Xmeng/data/Allison/gene_verification_docker/nf-gene-verify/Segre_assemblies/ \
+  --genes data_31/gene_presence.tsv \
+  --metadata data_31/metadata.tsv \
+  --gene-groups gene_groups_29.tsv \
+  --out results_31 \
+  --threads 8 \
+  --tree-layout cladogram \
+  --tree-width 4.4 \
+  --row-height 0.28 \
+  --support-style symbols \
+  --title "31 genomes: phylogeny and reported markers"
+
+
+
+First add --check to validate the inputs; then run without it.
+
+
+The finished cladogram will be results_31/figure1.pdf

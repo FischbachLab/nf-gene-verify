@@ -1,0 +1,362 @@
+{
+  "base": "/Users/xmeng/Documents/Codex/2026-10-09/i-x20/outputs/fig1_ec2_29genomes/data/gene_groups_before_memo.tsv",
+  "changes": [
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "aae",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "aae",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "aae",
+      "memo_gene": "aae"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "aap",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "aap",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "aap",
+      "memo_gene": "aap"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "agrA",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "agrA",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "agrA",
+      "memo_gene": "agrA"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "agrB",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "agrB",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "agrB",
+      "memo_gene": "agrB"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "agrC",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "agrC",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "agrC",
+      "memo_gene": "agrC"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "agrD",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "agrD",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "agrD",
+      "memo_gene": "agrD"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "atlE",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "atlE",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "atlE",
+      "memo_gene": "atlE"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "bhp",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "bhp",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "bhp",
+      "memo_gene": "bhp"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "embp",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "embp",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "embp",
+      "memo_gene": "embp"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "icaA",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "icaA",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "icaA",
+      "memo_gene": "icaA"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "icaB",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "icaB",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "icaB",
+      "memo_gene": "icaB"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "icaC",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "icaC",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "icaC",
+      "memo_gene": "icaC"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "icaD",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "icaD",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "icaD",
+      "memo_gene": "icaD"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "icaR",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "icaR",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "icaR",
+      "memo_gene": "icaR"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "IS256",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#e6c900",
+        "gene": "IS256",
+        "group": "IS256",
+        "shape": "triangle"
+      },
+      "gene": "IS256",
+      "memo_gene": "IS256"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "sarA",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "sarA",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "sarA",
+      "memo_gene": "sarA"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "sdrF",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "sdrF",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "sdrF",
+      "memo_gene": "sdrF"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "sdrG",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "sdrG",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "sdrG",
+      "memo_gene": "sdrG"
+    },
+    {
+      "after": {
+        "color": "#00897b",
+        "gene": "sdrH",
+        "group": "Biofilm",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "sdrH",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "sdrH",
+      "memo_gene": "sdrH"
+    },
+    {
+      "after": {
+        "color": "#000000",
+        "gene": "essD",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#64748b",
+        "gene": "essD",
+        "group": "Additional markers",
+        "shape": "square"
+      },
+      "gene": "essD",
+      "memo_gene": "essD"
+    },
+    {
+      "after": {
+        "color": "#000000",
+        "gene": "sesI",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#000000",
+        "gene": "sesI",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "gene": "sesI",
+      "memo_gene": "sesI"
+    },
+    {
+      "after": {
+        "color": "#000000",
+        "gene": "uhpT",
+        "group": "Virulence",
+        "shape": "circle"
+      },
+      "before": {
+        "color": "#64748b",
+        "gene": "uhpT",
+        "group": "Additional markers",
+        "shape": "square"
+      },
+      "gene": "uhpT",
+      "memo_gene": "uhpt"
+    }
+  ],
+  "listed_genes": 22,
+  "matching": "Whitespace trimmed; gene and group names matched case-insensitively; original gene labels retained",
+  "memo": "/Users/xmeng/Documents/Codex/2026-10-09/i-x20/outputs/fig1_ec2_29genomes/data/gene_groups_memo.tsv",
+  "memo_sha256": "f8425ff71c63f454116a731ee6b88259c6cd1f1b9a3004dd42d520973d63c8c7",
+  "unlisted_genes_preserved": 22
+}

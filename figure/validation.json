@@ -1,0 +1,26 @@
+{
+  "prepared_date": "2026-10-09",
+  "package_version": "1.0.0",
+  "target": "Linux x86_64, glibc >=2.28",
+  "unit_tests_passed": 9,
+  "plot_smoke_tests": [
+    "original two-genome table + supplied pairwise distance tree",
+    "explicitly synthetic 30-tip tree + marker table"
+  ],
+  "marker_row_joins": "every plotted call checked against its sample input",
+  "visual_review": "latest two-tip and 30-tip PDF renders inspected",
+  "supplied_tree_pipeline": "run and resumed using original NIHLM087/NIHLM095 genome assemblies",
+  "external_tool_orchestration": "CLI arguments, outputs and resume checked using explicit test doubles",
+  "linux_dependency_resolution": "passed; exact artifacts locked",
+  "full_linux_biological_pipeline_executed": false,
+  "actual_30_genomes_processed": false,
+  "code_sha256": {
+    "fig1lib.py": "5d731ac578f7e40345bf5e8f5189977b1a986ea86df7a7a3b3332fbc5ab54fc5",
+    "plot_fig1.py": "8cb141997d9175881b0bf195410181cdbd9a983be6d17769c86525e1d4124937",
+    "run_ec2.sh": "94de4cbed30e9d7ab982261504cfda2582d718fe66a03bff4f1ae8a5505a7ba1",
+    "run_pipeline.py": "1b3b99243065f06d8f8ceaca88bba45ff807500d3ed43417fd3862c3644efe12",
+    "setup_linux.sh": "b78c8e97ff988d39aba311d450c83bedf89f66e4f999232ae49960d830fe0b00",
+    "smoke_test.py": "30812bd7ddd7895cec0826da23d9e09da17e7a6159e546e1c0900e67f00005e5",
+    "tests/test_pipeline.py": "437e36b22a888d00f603f75d9e70dac770180a9a8f661337e999e150e6d744aa"
+  }
+}

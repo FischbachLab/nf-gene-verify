@@ -1,0 +1,12 @@
+gene	group	color	shape
+blaZ	Resistance	#df3d3d	square
+mecA	Resistance	#df3d3d	square
+agrA	Virulence-associated	#172b3a	circle
+bhp	Virulence-associated	#172b3a	circle
+ebh	Virulence-associated	#172b3a	circle
+icaD	Virulence-associated	#172b3a	circle
+icaR	Virulence-associated	#172b3a	circle
+aacA	Other markers	#64748b	square
+fdh	Other markers	#64748b	square
+SCCmec	Other markers	#64748b	square
+IS256	IS256	#c4a000	triangle

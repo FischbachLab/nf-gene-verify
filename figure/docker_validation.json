@@ -1,0 +1,31 @@
+{
+  "prepared_date": "2026-11-02",
+  "target": "linux/amd64 (Linux x86_64)",
+  "base_image": "mambaorg/micromamba:2.9.0@sha256:7b93def90e48d6d7744938e31c29172e03b19bc9f56f0db512039f18efd21529",
+  "base_manifest_verified": true,
+  "linux_amd64_image_digest": "sha256:49516f2465d475605330f301cd4b562c09fff1d183799b58469414a2b8948d79",
+  "hadolint_version": "2.15.1",
+  "hadolint_findings": [],
+  "bash_syntax": "passed",
+  "docker_wrapper_tests_passed": 3,
+  "docker_wrapper_test_method": "Explicit fake Docker CLI; argument and mount checks only; no containers executed",
+  "build_context_review": "Allowlisted to Dockerfile, .dockerignore, dependency lock and four Python modules; biological inputs excluded",
+  "image_build_executed": false,
+  "container_execution_verified": false,
+  "build_limitation": "Docker daemon is not running on this Mac; image must be built and tested on EC2",
+  "ec2_genomes_processed": false,
+  "code_sha256": {
+    "Dockerfile": "940e9d883660b16e5974adcfe61509044293fde34c6a391f4ddc53e21b02fade",
+    ".dockerignore": "53f067d97c549b44fa5dfecee026717621898e8ad33af81bea032d645623d28f",
+    "run_29_docker.sh": "4f58b09046a1e81e5c765f9cdf7279824ebde9ac6e2c7747d9c0319f0bf9b12f",
+    "tests/test_docker_wrapper.py": "1c8a4142c205317d14866dfad5eb795701562fa37f99bc629ff9efb4cb596e34",
+    "ec2-linux-64.explicit.txt": "c88e415043952bdf3115ddd8ef1f59e90d600d79616318f931c21a73e157659b"
+  },
+  "current_python_source_sha256": {
+    "fig1lib.py": "23baafe366df20e1688204061f9442958229f8c701a0bed59eab45c2de1cf3d3",
+    "ortholog_pca.py": "f84d75c85da4f894a94a158f675508fe18a87eb2f24bc2923228063402fddb46",
+    "plot_fig1.py": "3b349ab1f4db29dbbab8f80339f809dd8812a08b49ede13129c40f833d53b0c5",
+    "run_pipeline.py": "a6fecbb4033de41af92145d224946f239bf2e064894008d8c6308dce392e2b32"
+  },
+  "last_static_check_date": "2026-11-04"
+}

@@ -1,0 +1,45 @@
+gene	group	color	shape
+blaZ	Beta-lactams	#ff0000	square
+mecA	Beta-lactams	#ff0000	square
+norA	Quinolones	#7030a0	square
+aacA	Aminoglycosides	#70ad47	square
+aadD	Aminoglycosides	#70ad47	square
+ermA	MLSB	#ff9900	square
+ermB	MLSB	#ff9900	square
+ermC	MLSB	#ff9900	square
+msrA	MLSB	#ff9900	square
+mphC	MLSB	#ff9900	square
+tetK	Tetracycline	#2e75b6	square
+fusB	Other ARGs	#808080	square
+fusC	Other ARGs	#808080	square
+fosB	Other ARGs	#808080	square
+dfrC	Other ARGs	#808080	square
+dfrG	Other ARGs	#808080	square
+atlE	Biofilm	#00897b	circle
+sdrF	Biofilm	#00897b	circle
+sdrG	Biofilm	#00897b	circle
+sdrH	Biofilm	#00897b	circle
+aap	Biofilm	#00897b	circle
+embp	Biofilm	#00897b	circle
+bhp	Biofilm	#00897b	circle
+arcA	Virulence	#000000	circle
+icaR	Biofilm	#00897b	circle
+icaA	Biofilm	#00897b	circle
+icaD	Biofilm	#00897b	circle
+icaB	Biofilm	#00897b	circle
+icaC	Biofilm	#00897b	circle
+aae	Biofilm	#00897b	circle
+agrA	Biofilm	#00897b	circle
+agrB	Biofilm	#00897b	circle
+agrC	Biofilm	#00897b	circle
+agrD	Biofilm	#00897b	circle
+sarA	Biofilm	#00897b	circle
+sesI	Virulence	#000000	circle
+SCCmec	Additional markers	#64748b	square
+arcB	Additional markers	#64748b	square
+arcC	Additional markers	#64748b	square
+arcD	Additional markers	#64748b	square
+essD	Virulence	#000000	circle
+fdh	Additional markers	#64748b	square
+uhpT	Virulence	#000000	circle
+IS256	Biofilm	#00897b	circle

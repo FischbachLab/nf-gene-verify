@@ -1,0 +1,45 @@
+gene	group	basis	sources	note
+blaZ	Beta-lactams	Figure 1	S1	Same marker label and panel category in the published figure.
+mecA	Beta-lactams	Figure 1	S1	Same marker label and panel category in the published figure.
+norA	Quinolones	Figure 1	S1	Same quinolone-category placement as paper; a presence call does not establish efflux expression or resistance phenotype.
+aacA	Aminoglycosides	Provisional family-level mapping	S1	Aminoglycoside-family placement from supplied label. Not confirmed equivalent to paper AAC(6')-Ie-APH(2'')-Ia; verify reference sequence.
+aadD	Aminoglycosides	Figure 1	S1	Same marker label and panel category in the published figure.
+ermA	MLSB	Figure 1	S1	Same marker label and panel category in the published figure.
+ermB	MLSB	Literature extension	S2	Added erm-family MLSB marker; not shown as ermB in Figure 1.
+ermC	MLSB	Figure 1	S1	Same marker label and panel category in the published figure.
+msrA	MLSB	Figure 1; name normalization	S1	Paper label uses parentheses; original table label is retained.
+mphC	MLSB	Figure 1; name normalization	S1	Paper label uses parentheses; original table label is retained.
+tetK	Tetracycline	Figure 1	S1	Same marker label and panel category in the published figure.
+fusB	Other ARGs	Figure 1	S1	Same marker label and panel category in the published figure.
+fusC	Other ARGs	Literature extension	S3	Added fusidic-acid-associated marker in paper-style Other ARGs category.
+fosB	Other ARGs	Figure 1	S1	Same marker label and panel category in the published figure.
+dfrC	Other ARGs	Figure 1	S1	Same Other ARGs placement as paper; native or functional allele status has not been checked.
+dfrG	Other ARGs	Literature extension	S3	Added trimethoprim-associated marker in paper-style Other ARGs category.
+atlE	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+sdrF	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+sdrG	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+sdrH	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+aap	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+embp	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+bhp	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+arcA	Virulence	Figure 1	S1	Same black-circle placement as paper arcA; supplied presence does not identify an ACME-specific copy or intact element.
+icaR	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+icaA	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+icaD	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+icaB	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+icaC	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+aae	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+agrA	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+agrB	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+agrC	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+agrD	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+sarA	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+sesI	Virulence	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+SCCmec	Additional markers	Additional marker; outside paper scheme	S1	Cassette-level reported marker, distinct from mecA; not a Figure 1 gene-panel column.
+arcB	Additional markers	Additional marker; outside paper scheme	S1	Not classified by Figure 1; generic label does not establish an accessory locus or ACME.
+arcC	Additional markers	Additional marker; outside paper scheme	S1	Not classified by Figure 1; also a housekeeping/MLST locus name, so not treated as ACME-specific.
+arcD	Additional markers	Additional marker; outside paper scheme	S1	Not classified by Figure 1; generic label does not establish an accessory locus or ACME.
+essD	Virulence	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+fdh	Additional markers	User-requested revision (2026-11-04)	Updated data/gene_groups_memo.tsv and user request	Removed from the memo override; restored to the baseline Additional markers group, using slate squares. All presence/absence calls are retained.
+uhpT	Virulence	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.
+IS256	Biofilm	User-provided display grouping (2026-11-04)	data/gene_groups_memo.tsv	User-requested category overrides the previous display classification; original gene calls and labels are retained. This update does not independently validate biological function.

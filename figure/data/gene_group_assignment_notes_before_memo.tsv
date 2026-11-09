@@ -1,0 +1,45 @@
+gene	group	basis	sources	note
+blaZ	Beta-lactams	Figure 1	S1	Same marker label and panel category in the published figure.
+mecA	Beta-lactams	Figure 1	S1	Same marker label and panel category in the published figure.
+norA	Quinolones	Figure 1	S1	Same quinolone-category placement as paper; a presence call does not establish efflux expression or resistance phenotype.
+aacA	Aminoglycosides	Provisional family-level mapping	S1	Aminoglycoside-family placement from supplied label. Not confirmed equivalent to paper AAC(6')-Ie-APH(2'')-Ia; verify reference sequence.
+aadD	Aminoglycosides	Figure 1	S1	Same marker label and panel category in the published figure.
+ermA	MLSB	Figure 1	S1	Same marker label and panel category in the published figure.
+ermB	MLSB	Literature extension	S2	Added erm-family MLSB marker; not shown as ermB in Figure 1.
+ermC	MLSB	Figure 1	S1	Same marker label and panel category in the published figure.
+msrA	MLSB	Figure 1; name normalization	S1	Paper label uses parentheses; original table label is retained.
+mphC	MLSB	Figure 1; name normalization	S1	Paper label uses parentheses; original table label is retained.
+tetK	Tetracycline	Figure 1	S1	Same marker label and panel category in the published figure.
+fusB	Other ARGs	Figure 1	S1	Same marker label and panel category in the published figure.
+fusC	Other ARGs	Literature extension	S3	Added fusidic-acid-associated marker in paper-style Other ARGs category.
+fosB	Other ARGs	Figure 1	S1	Same marker label and panel category in the published figure.
+dfrC	Other ARGs	Figure 1	S1	Same Other ARGs placement as paper; native or functional allele status has not been checked.
+dfrG	Other ARGs	Literature extension	S3	Added trimethoprim-associated marker in paper-style Other ARGs category.
+atlE	Virulence	Figure 1; autolysin name mapping	S1	Mapped to paper atl autolysin category; sequence identity has not been checked.
+sdrF	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+sdrG	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+sdrH	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+aap	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+embp	Virulence	Literature extension	S5	Biofilm/intercellular-adhesion-associated marker; literature extension.
+bhp	Virulence	Literature extension	S6	Biofilm-associated marker; literature extension.
+arcA	Virulence	Figure 1	S1	Same black-circle placement as paper arcA; supplied presence does not identify an ACME-specific copy or intact element.
+icaR	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+icaA	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+icaD	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+icaB	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+icaC	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+aae	Virulence	Figure 1	S1	Same marker label and panel category in the published figure.
+agrA	Virulence	Literature extension	S4	Component of agr virulence-regulatory system; added to paper-style black-circle panel.
+agrB	Virulence	Literature extension	S4	Component of agr virulence-regulatory system; added to paper-style black-circle panel.
+agrC	Virulence	Literature extension	S4	Component of agr virulence-regulatory system; added to paper-style black-circle panel.
+agrD	Virulence	Literature extension	S4	Component of agr virulence-regulatory system; added to paper-style black-circle panel.
+sarA	Virulence	Literature extension	S7	Biofilm/virulence regulatory marker; literature extension.
+sesI	Virulence	Literature extension	S8	Adhesion/aggregation-associated marker; literature extension.
+SCCmec	Additional markers	Additional marker; outside paper scheme	S1	Cassette-level reported marker, distinct from mecA; not a Figure 1 gene-panel column.
+arcB	Additional markers	Additional marker; outside paper scheme	S1	Not classified by Figure 1; generic label does not establish an accessory locus or ACME.
+arcC	Additional markers	Additional marker; outside paper scheme	S1	Not classified by Figure 1; also a housekeeping/MLST locus name, so not treated as ACME-specific.
+arcD	Additional markers	Additional marker; outside paper scheme	S1	Not classified by Figure 1; generic label does not establish an accessory locus or ACME.
+essD	Additional markers	Additional marker; outside paper scheme	S1	Not classified by Figure 1; a species-specific gene/virulence assignment requires annotation evidence.
+fdh	Additional markers	Additional marker; outside paper scheme	S9	Formate-dehydrogenase marker; kept outside ARG and virulence panels.
+uhpT	Additional markers	Additional marker; outside paper scheme	S10	Transporter marker; presence is not equivalent to a resistance-conferring mutation or loss of function.
+IS256	IS256	Figure 1	S1	Same marker label and panel category in the published figure.
